@@ -1,0 +1,964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditorStringId.Apply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="EditorStringId.Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="EditorStringId.WaitIndicatorText" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="EditorStringId.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipElementAdd" xml:space="preserve">
+    <value>Adiciona um novo item à lista</value>
+  </data>
+  <data name="EditorStringId.MaskIncomplete" xml:space="preserve">
+    <value>Máscara incompleta</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonCancel" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_AutomaticButtonCaption" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Between_Description" xml:space="preserve">
+    <value>Entre (,)
+Especifica um intervalo para testar. Retorna Verdadeiro se um valor é maior ou igual ao primeiro operando e menor ou igual ao segundo operando.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_EndsWith_Description" xml:space="preserve">
+    <value>EndsWith (String, EndString)
+Retorna Verdadeiro se o final da seqüência de caracteres corresponde a EndString; caso contrário, False é retornado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Iif_Description" xml:space="preserve">
+    <value>Iif (expressão, TruePart, FalsePart)
+Retorna o TruePart ou FalsePart, dependendo da avaliação da expressão booliana.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNullOrEmpty_Description" xml:space="preserve">
+    <value>IsNullOrEmpty (String)
+Retorna True se o objeto especificado String é NULL ou uma string vazia; caso contrário, False é retornado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Max_Description" xml:space="preserve">
+    <value>Max (valor1, valor2)
+Retorna o valor máximo dos valores especificados.</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNull" xml:space="preserve">
+    <value>Está em branco</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNull" xml:space="preserve">
+    <value>Não está em branco</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_And_Description" xml:space="preserve">
+    <value>Executa uma conjunção lógica em duas expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ascii_Description" xml:space="preserve">
+    <value>Ascii(String)
+Retorna o valor de código ASCII do caractere mais à esquerda em uma expressão de caractere.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Constants_Text" xml:space="preserve">
+    <value>Constantes</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Fields_Text" xml:space="preserve">
+    <value>Campos</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Floor_Description" xml:space="preserve">
+    <value>Floor(Value)
+Retorna o maior inteiro menor ou igual a determinada expressão numérica.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Functions_Text" xml:space="preserve">
+    <value>Funções</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_AllItems" xml:space="preserve">
+    <value>(Todos)</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_DateTimeItems" xml:space="preserve">
+    <value>Data e hora</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_LogicalItems" xml:space="preserve">
+    <value>Lógico</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_MathItems" xml:space="preserve">
+    <value>Matemática</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_StringItems" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetYear_Description" xml:space="preserve">
+    <value>GetYear(DateTime)
+Extrai um ano de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Greater_Description" xml:space="preserve">
+    <value>Maior que o operador. Usado para comparar expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GreaterOrEqual_Description" xml:space="preserve">
+    <value>Maior ou igual ao operador. Usado para comparar expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNull_Description" xml:space="preserve">
+    <value>IsNull(Value)
+Retorna True se o valor especificado for NULL.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Len_Description" xml:space="preserve">
+    <value>Len(Value)
+Retorna um inteiro contendo também o número de caracteres em uma seqüência de caracteres ou o número de bytes necessários para armazenar uma variável nominal.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LessOrEqual_Description" xml:space="preserve">
+    <value>Menor ou igual ao operador. Usado para comparar expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Multiply_Description" xml:space="preserve">
+    <value>Multiplica o valor de duas expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Not_Description" xml:space="preserve">
+    <value>Executa a negação lógica em uma expressão.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Title" xml:space="preserve">
+    <value>editor de expressão</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_True_Description" xml:space="preserve">
+    <value>Representa o valor booleano True.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Upper_Description" xml:space="preserve">
+    <value>Upper(String)
+Retorna a String em letras maiúsculas.</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>a expressão especificada é inválida.</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonAdd" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonBack" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonClear" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonDiv" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEight" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFive" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFour" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFract" xml:space="preserve">
+    <value>1/x</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMAdd" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMR" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMSub" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMul" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonNine" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonOne" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSeven" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSign" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSix" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSqrt" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSub" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonThree" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonTwo" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonZero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditorStringId.CalculatorError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="EditorStringId.CalculatorInvalidInputError" xml:space="preserve">
+    <value>Entrada inválida</value>
+  </data>
+  <data name="EditorStringId.CaptionError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="EditorStringId.Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="EditorStringId.SelectAll" xml:space="preserve">
+    <value>(Selecionar tudo)</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_SaveFileFilter" xml:space="preserve">
+    <value>PNG (*. png) | *. png|BMP (*. bmp) | *.BMP |JPG (*. jpg) | *. jpg|GIF (*. gif) | *. gif</value>
+  </data>
+  <data name="EditorStringId.No" xml:space="preserve">
+    <value>não</value>
+  </data>
+  <data name="EditorStringId.PasswordBoxEditToolTipHeader" xml:space="preserve">
+    <value>Caps Lock está ligado</value>
+  </data>
+  <data name="EditorStringId.Paste" xml:space="preserve">
+    <value>Colar</value>
+  </data>
+  <data name="EditorStringId.Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLess" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLessOrEqual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorModulo" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMultiply" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorNotEqual" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorBitwiseNot" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Operadores de DateTime</value>
+  </data>
+  <data name="EditorStringId.FilterEditorChecked" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="EditorStringId.FilterEditorUnchecked" xml:space="preserve">
+    <value>Não verificado</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddCondition" xml:space="preserve">
+    <value>Adicionar condição</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddGroup" xml:space="preserve">
+    <value>Adiciona grupo</value>
+  </data>
+  <data name="EditorStringId.FilterGroupRemoveGroup" xml:space="preserve">
+    <value>Remover grupo</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClearFilter" xml:space="preserve">
+    <value>Limpar filtro</value>
+  </data>
+  <data name="EditorStringId.FilterPanelDisableFilter" xml:space="preserve">
+    <value>Desabilitar filtro</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEditFilter" xml:space="preserve">
+    <value>Editar Filtro</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEnableFilter" xml:space="preserve">
+    <value>Ativar filtro</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAction" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeRemove" xml:space="preserve">
+    <value>Remove esta condição</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseOr" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseXor" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorDivide" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ColorChooserWindowTitle" xml:space="preserve">
+    <value>Cores</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_MoreColorsButtonCaption" xml:space="preserve">
+    <value>Mais cores...</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_NoColorButtonCaption" xml:space="preserve">
+    <value>Sem cor</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_RecentColorsCaption" xml:space="preserve">
+    <value>Cores recentes</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_StandardColorsCaption" xml:space="preserve">
+    <value>Cores padrão</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ThemeColorsCaption" xml:space="preserve">
+    <value>Cores do tema</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Today_Description" xml:space="preserve">
+    <value>Today()
+Retorna a data atual. Independentemente do tempo real, esta função retorna à meia-noite da data atual.</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsToday" xml:space="preserve">
+    <value>É hoje</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEquals" xml:space="preserve">
+    <value>É igual a</value>
+  </data>
+  <data name="EditorStringId.Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorAnd" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAnd" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorOr" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="EditorStringId.FilterGroupOr" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="EditorStringId.Clear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorNot" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="EditorStringId.Cut" xml:space="preserve">
+    <value>Recortar</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBeginsWith" xml:space="preserve">
+    <value>Começa com</value>
+  </data>
+  <data name="EditorStringId.FilterClauseContains" xml:space="preserve">
+    <value>Contém</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEndsWith" xml:space="preserve">
+    <value>Termina com</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreater" xml:space="preserve">
+    <value>É maior que</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreaterOrEqual" xml:space="preserve">
+    <value>É maior que ou igual a</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBetween" xml:space="preserve">
+    <value>Entre</value>
+  </data>
+  <data name="EditorStringId.Open" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="EditorStringId.OutOfRange" xml:space="preserve">
+    <value>valor está fora do intervalo</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLike" xml:space="preserve">
+    <value>Como</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIsNotNull" xml:space="preserve">
+    <value>É não nula</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringNotLike" xml:space="preserve">
+    <value>Não é como</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorIsNull" xml:space="preserve">
+    <value>É nulo</value>
+  </data>
+  <data name="EditorStringId.FilterGroupClearAll" xml:space="preserve">
+    <value>Limpar todas</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotAnd" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysAdd" xml:space="preserve">
+    <value>(Use a tecla Insert ou Add)</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysRemove" xml:space="preserve">
+    <value>(Use a tecla Delete ou subtrair)</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAdd" xml:space="preserve">
+    <value>Adiciona uma nova condição para este grupo</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipValueType" xml:space="preserve">
+    <value>Comparar com um valor / outro valor do campo</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_InvalidFormatMessage" xml:space="preserve">
+    <value>formato de imagem errada</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn2_Description" xml:space="preserve">
+    <value>Atn2 (valor1, valor2)
+Retorna o ângulo cuja tangente é o quociente de dois números especificados, em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseAnd_Description" xml:space="preserve">
+    <value>Executa uma lógica bit a bit e operação entre dois valores inteiros.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseOr_Description" xml:space="preserve">
+    <value>Compara cada bit de seu primeiro operando o bit correspondente de seu segundo operando. Se qualquer bit for 1, o bit correspondente do resultado é definido como 1. Caso contrário, o bit correspondente do resultado é definido como 0.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ceiling_Description" xml:space="preserve">
+    <value>Ceiling(Value)
+Retorna o menor inteiro que é maior que ou igual a determinada expressão numérica.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Char_Description" xml:space="preserve">
+    <value>Char(Number)
+Converte um integerASCIICode para um caractere.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cos_Description" xml:space="preserve">
+    <value>Cos(Value)
+Retorna o cosseno do ângulo definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cosh_Description" xml:space="preserve">
+    <value>Cosh(Value)
+Retorna o cosseno hiperbólico de um ângulo definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffDay_Description" xml:space="preserve">
+    <value>DateDiffDay (startDate, endDate)
+Retorna o número de limites de dias entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffHour_Description" xml:space="preserve">
+    <value>DateDiffHour (startDate, endDate)
+Retorna o número de limites de horas entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMilliSecond_Description" xml:space="preserve">
+    <value>DateDiffMilliSecond (startDate, endDate)
+Retorna o número de milissegundos limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMinute_Description" xml:space="preserve">
+    <value>DateDiffMinute (startDate, endDate)
+Retorna o número de minuto os limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMonth_Description" xml:space="preserve">
+    <value>DateDiffMonth (startDate, endDate)
+Retorna o número de mês limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffSecond_Description" xml:space="preserve">
+    <value>DateDiffSecond (startDate, endDate)
+Retorna o número de segundo limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Divide_Description" xml:space="preserve">
+    <value>Divide o primeiro operando por segundo.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Equal_Description" xml:space="preserve">
+    <value>Retorna true se ambos os operandos têm o mesmo valor; caso contrário, retorna false.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Exp_Description" xml:space="preserve">
+    <value>Exp(Value)
+Retorna o valor exponencial de expressão float determinado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_False_Description" xml:space="preserve">
+    <value>Representa o valor booleano False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDate_Description" xml:space="preserve">
+    <value>GetDate(DateTime)
+Extrai uma data de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetTimeOfDay_Description" xml:space="preserve">
+    <value>GetTimeOfDay(DateTime)
+Extrai o DateTime definido, em escalas da hora do dia.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GridFields_Description_Prefix" xml:space="preserve">
+    <value>Legenda: {1}
+É o tipo deste campo: {2}</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_In_Description" xml:space="preserve">
+    <value>In (,,,)
+Testes para a existência de uma propriedade em um objeto.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Insert_Description" xml:space="preserve">
+    <value>Insert (String1, StartPosition, String2)
+Insere String2 em String1 na posição especificada pelo StartPositon</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Less_Description" xml:space="preserve">
+    <value>Menos que o operador. Usado para comparar expressões.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Like_Description" xml:space="preserve">
+    <value>Compara uma seqüência de caracteres contra um padrão. Se o valor da seqüência de caracteres corresponde ao padrão, o resultado é verdadeiro. Se a seqüência de caracteres não coincide com o padrão, o resultado é false. Se cadeia de caracteres e padrão são seqüências de caracteres vazias, o resultado é true.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log_Description" xml:space="preserve">
+    <value>Log(Value)
+Retorna o logaritmo natural de um número especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log10_Description" xml:space="preserve">
+    <value>Log10(Value)
+Logaritmo retorna a base 10 de um número especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log2Param_Description" xml:space="preserve">
+    <value>Log (valor, Base)
+Retorna o logaritmo de um número especificado em uma Base especificada.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Lower_Description" xml:space="preserve">
+    <value>Lower(String)
+Retorna a seqüência de caracteres em minúsculas.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Min_Description" xml:space="preserve">
+    <value>Min (valor1, valor2)
+Retorna o valor mínimo dos valores especificados.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Minus_Description" xml:space="preserve">
+    <value>Encontra a diferença entre dois números.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Modulo_Description" xml:space="preserve">
+    <value>Retorna o resto (módulo) obtido dividindo-se uma expressão numérica em outra.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_NotEqual_Description" xml:space="preserve">
+    <value>Retorna true se os operandos não têm o mesmo valor; caso contrário, retorna false.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Now_Description" xml:space="preserve">
+    <value>Now)
+Retorna a data atual do sistema e a hora.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Null_Description" xml:space="preserve">
+    <value>Representa uma referência nula, o que não faz referência a qualquer objeto.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Operators_Text" xml:space="preserve">
+    <value>Operadores</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Or_Description" xml:space="preserve">
+    <value>Executa uma disjunção lógica em duas expressões Boolean.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft_Description" xml:space="preserve">
+    <value>PadLeft (cadeia de caracteres, comprimento)
+Alinha à esquerda caracteres na seqüência de caracteres definido, estofamento do seu lado esquerdo, com caracteres de espaços em branco até um período total especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft3Param_Description" xml:space="preserve">
+    <value>PadLeft (cadeia de caracteres, comprimento, Char)
+Alinha à esquerda caracteres na seqüência de caracteres definido, acolchoando seu lado esquerdo com o Char especificado até um período total especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight_Description" xml:space="preserve">
+    <value>PadRight (cadeia de caracteres, comprimento)
+Alinha à direita caracteres na seqüência de caracteres definido, estofamento do seu lado esquerdo, com caracteres de espaços em branco até um período total especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight3Param_Description" xml:space="preserve">
+    <value>PadRight (cadeia de caracteres, comprimento, Char)
+Alinha à direita caracteres na seqüência de caracteres definido, acolchoando seu lado esquerdo com o Char especificado até um período total especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Plus_Description" xml:space="preserve">
+    <value>Adiciona o valor de uma expressão numérica para outro, ou concatena duas seqüências de caracteres.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Power_Description" xml:space="preserve">
+    <value>(valor, poder)
+Retorna um número especificado elevado a uma potência especificada.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove_Description" xml:space="preserve">
+    <value>(String, StartPosition, comprimento)
+Exclui um número especificado de caracteres desta instância, começando na posição especificada.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Replace_Description" xml:space="preserve">
+    <value>Replace (String, SubString2, String3)
+Retorna uma cópia de String1, em que SubString2 foi substituído por String3.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Reverse_Description" xml:space="preserve">
+    <value>Reverse(String)
+Inverte a ordem dos elementos dentro de uma string.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Rnd_Description" xml:space="preserve">
+    <value>Rnd()
+Retorna um número aleatório que é inferior a 1, mas maior ou igual a zero.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round_Description" xml:space="preserve">
+    <value>Round(Value)
+Arredonda o valor dado para o inteiro mais próximo.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round2Param_Description" xml:space="preserve">
+    <value>Redonda (valor, precisão)
+Arredonda o valor dado para o inteiro mais próximo, ou para um número especificado de casas decimais.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sign_Description" xml:space="preserve">
+    <value>Sign(Value)
+Retorna o positivo (+ 1), zero (0) ou negativo (-1) sinal da expressão dada.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sin_Description" xml:space="preserve">
+    <value>Sin(Value)
+Retorna o seno do ângulo, definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sinh_Description" xml:space="preserve">
+    <value>Sinh(Value)
+Retorna o seno hiperbólico de um ângulo definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sqr_Description" xml:space="preserve">
+    <value>Sqr(Value)
+Retorna a raiz quadrada de um número determinado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_StartsWith_Description" xml:space="preserve">
+    <value>StartsWith (String, StartString)
+Retorna True se o início da seqüência de caracteres corresponde a StartString; caso contrário, False é retornado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Substring2param_Description" xml:space="preserve">
+    <value>Substring (String, StartPosition)
+Recupera uma subseqüência da seqüência de caracteres. A subseqüência começa em StartPosition.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Substring3param_Description" xml:space="preserve">
+    <value>Substring (String, StartPosition, comprimento)
+Recupera uma subseqüência da seqüência de caracteres. A subseqüência começa em StartPosition e tem o comprimento especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tan_Description" xml:space="preserve">
+    <value>Tan(Value)
+Retorna a tangente do ângulo definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tanh_Description" xml:space="preserve">
+    <value>Tanh(Value)
+Retorna a tangente hiperbólica de um ângulo definido em radianos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToStr_Description" xml:space="preserve">
+    <value>ToStr(Value)
+Retorna uma representação de seqüência de caracteres de um objeto.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Trim_Description" xml:space="preserve">
+    <value>Trim(String)
+Remove todos os caracteres de espaço esquerdos e à direita do String.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_UtcNow_Description" xml:space="preserve">
+    <value>UtcNow()
+Retorna a data atual do sistema e o tempo, expressado como tempo Universal Coordenado (UTC).</value>
+  </data>
+  <data name="EditorStringId.FilterClauseAnyOf" xml:space="preserve">
+    <value>É qualquer uma das</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetween" xml:space="preserve">
+    <value>É entre</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetweenAnd" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="EditorStringId.FilterClauseDoesNotContain" xml:space="preserve">
+    <value>Não contém</value>
+  </data>
+  <data name="EditorStringId.FilterClauseDoesNotEqual" xml:space="preserve">
+    <value>Não é igual a</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsBeyondThisYear" xml:space="preserve">
+    <value>Está além deste ano</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisMonth" xml:space="preserve">
+    <value>É no início deste mês</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisWeek" xml:space="preserve">
+    <value>É no início desta semana</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisYear" xml:space="preserve">
+    <value>É no início deste ano</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLastWeek" xml:space="preserve">
+    <value>É a última semana</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisMonth" xml:space="preserve">
+    <value>É ainda este mês</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisWeek" xml:space="preserve">
+    <value>É o final desta semana</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisYear" xml:space="preserve">
+    <value>É ainda este ano</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNextWeek" xml:space="preserve">
+    <value>É na próxima semana</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsPriorThisYear" xml:space="preserve">
+    <value>É a prévia deste ano</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsTomorrow" xml:space="preserve">
+    <value>É amanhã</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsYesterday" xml:space="preserve">
+    <value>É ontem</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLess" xml:space="preserve">
+    <value>é menos de</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLessOrEqual" xml:space="preserve">
+    <value>É menor ou igual a</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLike" xml:space="preserve">
+    <value>É como</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNoneOf" xml:space="preserve">
+    <value>Não é da</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotBetween" xml:space="preserve">
+    <value>Não entre</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>a expressão especificada contém símbolos inválidos (linha {0}, personagem {1}).</value>
+  </data>
+  <data name="EditorStringId.CalculatorDivisionByZeroError" xml:space="preserve">
+    <value>Não pode dividir por zero</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex_Description" xml:space="preserve">
+    <value>CharIndex (String1, String2)
+Retorna a posição inicial de String1, String2, dentro de começo da posição zero caractere para o fim de uma seqüência de caracteres.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex3Param_Description" xml:space="preserve">
+    <value>CharIndex (String1, String2, StartLocation)
+Retorna a posição inicial de String1 dentro String2, começando a partir da posição de caractere StartLocation ao final de uma seqüência de caracteres.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffTick_Description" xml:space="preserve">
+    <value>DateDiffTick (startDate, endDate)
+Retorna o número de carrapato limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffYear_Description" xml:space="preserve">
+    <value>DateDiffYear (startDate, endDate)
+Retorna o número de ano limites entre duas datas não anuláveis.</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotOr" xml:space="preserve">
+    <value>NotOr</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_OpenFileFilter" xml:space="preserve">
+    <value>Imagem Files(*.JPG; *.PNG) | *.JPG; *.PNG|Todos os arquivos (*. *) | *. *</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotLike" xml:space="preserve">
+    <value>Não parece</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Abs_Description" xml:space="preserve">
+    <value>Abs(Value)
+Retorna o valor absoluto, positivo da expressão numérica dada.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Acos_Description" xml:space="preserve">
+    <value>Acos(Value)
+Retorna o arco cosseno de um número (o ângulo, em radianos, cujo cosseno é a expressão float determinado).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddDays_Description" xml:space="preserve">
+    <value>AddDays (DateTime, DaysCount)
+Retorna um valor de data e hora que é o número especificado de dias longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddHours_Description" xml:space="preserve">
+    <value>AddHours (DateTime, HoursCount)
+Retorna um valor de data e hora que é o número especificado de horas longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMilliSeconds_Description" xml:space="preserve">
+    <value>AddMilliSeconds (DateTime, MilliSecondsCount)
+Retorna um valor de data e hora que é o número especificado de milissegundos longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMinutes_Description" xml:space="preserve">
+    <value>AddMinutes (DateTime, MinutesCount)
+Retorna um valor de data e hora que é o número especificado de minutos longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMonths_Description" xml:space="preserve">
+    <value>AddMonths (DateTime, MonthsCount)
+Retorna um valor de data e hora que é o número especificado de meses longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddSeconds_Description" xml:space="preserve">
+    <value>AddSeconds (DateTime, SecondsCount)
+Retorna um valor de data e hora que é o número especificado de segundos longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTicks_Description" xml:space="preserve">
+    <value>AddTicks (DateTime, TicksCount)
+Retorna um valor de data e hora que é o número especificado de tiques longe de especificado DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTimeSpan_Description" xml:space="preserve">
+    <value>AddTimeSpan (DateTime, TimeSpan)
+Retorna um valor de data e hora que está longe de especificado DateTime para o determinado TimeSpan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddYears_Description" xml:space="preserve">
+    <value>AddYears (DateTime, YearsCount)
+Retorna um valor de data e hora que é o número especificado de anos longe da specieid DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Asin_Description" xml:space="preserve">
+    <value>Asin(Value)
+Retorna o arco seno de um número (o ângulo, em radianos, cujo seno é a expressão float determinado).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn_Description" xml:space="preserve">
+    <value>Atn(Value)
+Retorna o arco tangente de um número (o ângulo, em radianos, cuja tangente é a expressão float determinado).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BigMul_Description" xml:space="preserve">
+    <value>BigMul (valor1, valor2)
+Retorna um Int64 que contém o produto completo de dois números de 32 bits de especificado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseXor_Description" xml:space="preserve">
+    <value>Executa uma lógica de exclusão em duas expressões Boolean, ou uma exclusão bit a bit em duas expressões numéricas.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Concat_Description" xml:space="preserve">
+    <value>Concat (String1,..., StringN)
+Retorna um valor de seqüência de caracteres que contém a concatenação de seqüência de caracteres atual com qualquer cadeia de caracteres adicionais.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Contains_Description" xml:space="preserve">
+    <value>Contém (String, SubString)
+Retorna True se a SubString ocorre dentro de cadeia de caracteres; caso contrário, False é retornado.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDay_Description" xml:space="preserve">
+    <value>GetDay(DateTime)
+Extrai o DateTime definido um dia.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfWeek_Description" xml:space="preserve">
+    <value>GetDayOfWeek(DateTime)
+Extrai um dia da semana de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfYear_Description" xml:space="preserve">
+    <value>GetDayOfYear(DateTime)
+Extrai um dia do ano de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetHour_Description" xml:space="preserve">
+    <value>GetHour(DateTime)
+Extrai uma hora de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMilliSecond_Description" xml:space="preserve">
+    <value>GetMilliSecond(DateTime)
+Extrai o DateTime definido milissegundos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMinute_Description" xml:space="preserve">
+    <value>GetMinute(DateTime)
+Extrai o DateTime definido minutos.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMonth_Description" xml:space="preserve">
+    <value>GetMonth (DateTime)
+Extrai um mês de DateTime definido.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetSecond_Description" xml:space="preserve">
+    <value>GetSecond(DateTime)
+Extrai o DateTime definido segundos.</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyValueText" xml:space="preserve">
+    <value>&lt; enter um valor &gt;</value>
+  </data>
+  <data name="EditorStringId.ListBoxSelectAllSelectionMode" xml:space="preserve">
+    <value>Só pode chamar SelectAll quando SelectionMode é múltiplo ou Extended.</value>
+  </data>
+  <data name="EditorStringId.PasswordBoxEditToolTipContent" xml:space="preserve">
+    <value>Tendo o Caps Lock na pode causar seu digite a senha incorretamente.
+Você deve pressionar a tecla Caps Lock para ligá-lo antes de inserir sua senha.</value>
+  </data>
+</root>

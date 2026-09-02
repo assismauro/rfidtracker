@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxRichEditStringId.General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="ASPxRichEditStringId.Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupText" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="ASPxRichEditStringId.CancelButton" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignClose" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignOptions" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bottom" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="ASPxRichEditStringId.Left" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="ASPxRichEditStringId.Right" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="ASPxRichEditStringId.Top" xml:space="preserve">
+    <value>Topo</value>
+  </data>
+  <data name="ASPxRichEditStringId.OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ASPxRichEditStringId.Margins" xml:space="preserve">
+    <value>Margens</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPageBackground" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="ASPxRichEditStringId.Alignment" xml:space="preserve">
+    <value>Alinhamento</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutAlignment" xml:space="preserve">
+    <value>Alinhamento</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupZoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageFile" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutTable" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageTable" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="ASPxRichEditStringId.ErrorTitle" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ASPxRichEditStringId.Bold" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="ASPxRichEditStringId.Italic" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="ASPxRichEditStringId.Landscape" xml:space="preserve">
+    <value>Paisagem</value>
+  </data>
+  <data name="ASPxRichEditStringId.Portrait" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="ASPxRichEditStringId.Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="ASPxRichEditStringId.Width" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="ASPxRichEditStringId.Paper" xml:space="preserve">
+    <value>Papel</value>
+  </data>
+  <data name="ASPxRichEditStringId.ColumnsTitle" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageHome" xml:space="preserve">
+    <value>Página principal</value>
+  </data>
+  <data name="ASPxRichEditStringId.Orientation" xml:space="preserve">
+    <value>Orientação</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpenButton" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpenFileTitle" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveAsButton" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentProofing" xml:space="preserve">
+    <value>Verificação</value>
+  </data>
+  <data name="ASPxRichEditStringId.Font" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.FontTitle" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFont" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPageSetup" xml:space="preserve">
+    <value>Configurar Página</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageSetupTitle" xml:space="preserve">
+    <value>Configurar Página</value>
+  </data>
+  <data name="ASPxRichEditStringId.ApplyTo" xml:space="preserve">
+    <value>Aplicar a</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupParagraph" xml:space="preserve">
+    <value>Parágrafo</value>
+  </data>
+  <data name="ASPxRichEditStringId.ParagraphTitle" xml:space="preserve">
+    <value>Parágrafo</value>
+  </data>
+  <data name="ASPxRichEditStringId.KLT" xml:space="preserve">
+    <value>Manter linhas juntas</value>
+  </data>
+  <data name="ASPxRichEditStringId.Spacing" xml:space="preserve">
+    <value>Espaçamento</value>
+  </data>
+  <data name="ASPxRichEditStringId.SelectButton" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupStyles" xml:space="preserve">
+    <value>Estilos</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupUndo" xml:space="preserve">
+    <value>Desfazer</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertButton" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageInsert" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupLinks" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTables" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupView" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageView" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooterToolsDesignNavigation" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="ASPxRichEditStringId.Continuous" xml:space="preserve">
+    <value>Contínuo</value>
+  </data>
+  <data name="ASPxRichEditStringId.Double" xml:space="preserve">
+    <value>Duplo</value>
+  </data>
+  <data name="ASPxRichEditStringId.Exactly" xml:space="preserve">
+    <value>Exatamente</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupCommon" xml:space="preserve">
+    <value>Comum</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingPictureToolsArrange" xml:space="preserve">
+    <value>Organizar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupPages" xml:space="preserve">
+    <value>Páginas</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupShow" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hidden" xml:space="preserve">
+    <value>Oculto</value>
+  </data>
+  <data name="ASPxRichEditStringId.Level" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ASPxRichEditStringId.Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ASPxRichEditStringId.none" xml:space="preserve">
+    <value>(nenhum)</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveAsFileTitle" xml:space="preserve">
+    <value>Salvar como</value>
+  </data>
+  <data name="ASPxRichEditStringId.After" xml:space="preserve">
+    <value>Após</value>
+  </data>
+  <data name="ASPxRichEditStringId.AtLeast" xml:space="preserve">
+    <value>Pelo menos</value>
+  </data>
+  <data name="ASPxRichEditStringId.Before" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="ASPxRichEditStringId.BodyText" xml:space="preserve">
+    <value>Corpo do texto</value>
+  </data>
+  <data name="ASPxRichEditStringId.CurrentSection" xml:space="preserve">
+    <value>Seção atual</value>
+  </data>
+  <data name="ASPxRichEditStringId.DownloadButton" xml:space="preserve">
+    <value>Baixar</value>
+  </data>
+  <data name="ASPxRichEditStringId.DownloadCopy" xml:space="preserve">
+    <value>Baixar uma cópia</value>
+  </data>
+  <data name="ASPxRichEditStringId.Effects" xml:space="preserve">
+    <value>Efeito</value>
+  </data>
+  <data name="ASPxRichEditStringId.EvenPage" xml:space="preserve">
+    <value>Página par</value>
+  </data>
+  <data name="ASPxRichEditStringId.FileName" xml:space="preserve">
+    <value>Nome do arquivo</value>
+  </data>
+  <data name="ASPxRichEditStringId.FileType" xml:space="preserve">
+    <value>Tipo de arquivo</value>
+  </data>
+  <data name="ASPxRichEditStringId.FirstLine" xml:space="preserve">
+    <value>Primeira linha</value>
+  </data>
+  <data name="ASPxRichEditStringId.FolderPath" xml:space="preserve">
+    <value>Caminho da pasta</value>
+  </data>
+  <data name="ASPxRichEditStringId.FontColor" xml:space="preserve">
+    <value>Cor da fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.FontSize" xml:space="preserve">
+    <value>Tamanho da fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.FontStyle" xml:space="preserve">
+    <value>Estilo da fonte</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupCaptions" xml:space="preserve">
+    <value>Legendas</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupClipboard" xml:space="preserve">
+    <value>Área de transferência</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentComment" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentLanguage" xml:space="preserve">
+    <value>Língua</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentProtection" xml:space="preserve">
+    <value>Proteger</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentTracking" xml:space="preserve">
+    <value>Rastreamento</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupIllustrations" xml:space="preserve">
+    <value>Ilustrações</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupMailMerge" xml:space="preserve">
+    <value>Mala direta</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupSymbols" xml:space="preserve">
+    <value>Símbolos</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableOfContents" xml:space="preserve">
+    <value>Tabela de Conteúdos</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsDesignBordersAndShadings" xml:space="preserve">
+    <value>Bordas &amp; Matizes</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsDesignTableStyleOptions" xml:space="preserve">
+    <value>Opções de Estilo de Tabela</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsDesignTableStyles" xml:space="preserve">
+    <value>Estilos de Tabela</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutCellSize" xml:space="preserve">
+    <value>Tamanho da Célula</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutMerge" xml:space="preserve">
+    <value>Mesclar</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupTableToolsLayoutRowsAndColumns" xml:space="preserve">
+    <value>Linhas &amp; colunas</value>
+  </data>
+  <data name="ASPxRichEditStringId.Hanging" xml:space="preserve">
+    <value>Suspenso</value>
+  </data>
+  <data name="ASPxRichEditStringId.HeadersAndFooters" xml:space="preserve">
+    <value>Cabeçalhos e rodapés</value>
+  </data>
+  <data name="ASPxRichEditStringId.Indentation" xml:space="preserve">
+    <value>Indentação</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImage_FromLocal" xml:space="preserve">
+    <value>Do seu computador</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImage_FromWeb" xml:space="preserve">
+    <value>Da web (URL)</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImage_ImagePreview" xml:space="preserve">
+    <value>Visualização da imagem</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImageTitle" xml:space="preserve">
+    <value>Inserir imagem</value>
+  </data>
+  <data name="ASPxRichEditStringId.Justified" xml:space="preserve">
+    <value>Justificado</value>
+  </data>
+  <data name="ASPxRichEditStringId.LineSpacing" xml:space="preserve">
+    <value>Espaçamento entre linhas</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsNarrow" xml:space="preserve">
+    <value>Estreito</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_ToggleFullScreen" xml:space="preserve">
+    <value>Tela Cheia</value>
+  </data>
+  <data name="ASPxRichEditStringId.MenuCmd_ToggleFullScreenDescription" xml:space="preserve">
+    <value>Ativar / desativar o modo de tela cheia.</value>
+  </data>
+  <data name="ASPxRichEditStringId.NewPage" xml:space="preserve">
+    <value>Nova página</value>
+  </data>
+  <data name="ASPxRichEditStringId.OddPage" xml:space="preserve">
+    <value>Página ímpar</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageMailings" xml:space="preserve">
+    <value>Mala Direta</value>
+  </data>
+  <data name="ASPxRichEditStringId.PagePageLayout" xml:space="preserve">
+    <value>Layout de Página</value>
+  </data>
+  <data name="ASPxRichEditStringId.PagePicture" xml:space="preserve">
+    <value>Imagens</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageReferences" xml:space="preserve">
+    <value>Referências</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageReview" xml:space="preserve">
+    <value>Revisão</value>
+  </data>
+  <data name="ASPxRichEditStringId.Pagination" xml:space="preserve">
+    <value>Paginação</value>
+  </data>
+  <data name="ASPxRichEditStringId.PaperSize" xml:space="preserve">
+    <value>Tamanho do papel</value>
+  </data>
+  <data name="ASPxRichEditStringId.ParagraphTab0" xml:space="preserve">
+    <value>Recuos e Espaçamento</value>
+  </data>
+  <data name="ASPxRichEditStringId.ParagraphTab1" xml:space="preserve">
+    <value>Quebras de Linha e Página</value>
+  </data>
+  <data name="ASPxRichEditStringId.PBB" xml:space="preserve">
+    <value>Quebra de página antes de</value>
+  </data>
+  <data name="ASPxRichEditStringId.RequiredFieldError" xml:space="preserve">
+    <value>Este campo é obrigatório</value>
+  </data>
+  <data name="ASPxRichEditStringId.Section" xml:space="preserve">
+    <value>Seção</value>
+  </data>
+  <data name="ASPxRichEditStringId.SelectedSections" xml:space="preserve">
+    <value>Seções selecionadas</value>
+  </data>
+  <data name="ASPxRichEditStringId.Single" xml:space="preserve">
+    <value>Único</value>
+  </data>
+  <data name="ASPxRichEditStringId.spacing_1_5_lines" xml:space="preserve">
+    <value>1,5 linhas</value>
+  </data>
+  <data name="ASPxRichEditStringId.Special" xml:space="preserve">
+    <value>Especial</value>
+  </data>
+  <data name="ASPxRichEditStringId.ThisPointForward" xml:space="preserve">
+    <value>Desse ponto em diante</value>
+  </data>
+  <data name="ASPxRichEditStringId.WholeDocument" xml:space="preserve">
+    <value>Todo o documento</value>
+  </data>
+  <data name="ASPxRichEditStringId.At" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="ASPxRichEditStringId.BoldItalic" xml:space="preserve">
+    <value>BoldItalic</value>
+  </data>
+  <data name="ASPxRichEditStringId.By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="ASPxRichEditStringId.Centered" xml:space="preserve">
+    <value>Centralizado</value>
+  </data>
+  <data name="ASPxRichEditStringId.ChangeButton" xml:space="preserve">
+    <value>Mudança</value>
+  </data>
+  <data name="ASPxRichEditStringId.Multiple" xml:space="preserve">
+    <value>Múltiplas</value>
+  </data>
+  <data name="ASPxRichEditStringId.NoSpace" xml:space="preserve">
+    <value>Não adicionar espaço entre parágrafo do mesmo estilo</value>
+  </data>
+  <data name="ASPxRichEditStringId.OutlineLevel" xml:space="preserve">
+    <value>Nível de estrutura de tópicos</value>
+  </data>
+  <data name="ASPxRichEditStringId.PageHeaderAndFooter" xml:space="preserve">
+    <value>Cabeçalho e rodapé</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerHangingIdentTitle" xml:space="preserve">
+    <value>Suspender identação</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerMarginLeftTitle" xml:space="preserve">
+    <value>Margem esquerda</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerMarginRightTitle" xml:space="preserve">
+    <value>Margem direita</value>
+  </data>
+  <data name="ASPxRichEditStringId.ChooseType" xml:space="preserve">
+    <value>Escolha tipo de arquivo de download</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsModerate" xml:space="preserve">
+    <value>Moderada</value>
+  </data>
+  <data name="ASPxRichEditStringId.DifferentOddAndEven" xml:space="preserve">
+    <value>Diferentes pares e ímpares</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupEditing" xml:space="preserve">
+    <value>Edição</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupFloatingPictureToolsShapeStyles" xml:space="preserve">
+    <value>Estilos de forma</value>
+  </data>
+  <data name="ASPxRichEditStringId.MarginsWide" xml:space="preserve">
+    <value>Ampla</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveFileAs" xml:space="preserve">
+    <value>Salve o arquivo como</value>
+  </data>
+  <data name="ASPxRichEditStringId.SaveToServer" xml:space="preserve">
+    <value>Salvar o arquivo para o servidor</value>
+  </data>
+  <data name="ASPxRichEditStringId.SectionStart" xml:space="preserve">
+    <value>Iniciar seção</value>
+  </data>
+  <data name="ASPxRichEditStringId.SessionHasExpiredError" xml:space="preserve">
+    <value>Sua sessão expirou. &lt; br / &gt; por favor, atualize a página para continuar.</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineColor" xml:space="preserve">
+    <value>Sublinhar a cor</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineStyle" xml:space="preserve">
+    <value>Estilo sublinhado</value>
+  </data>
+  <data name="ASPxRichEditStringId.ModelIsChangedError" xml:space="preserve">
+    <value>o documento tiver sido modificado fora do editor e precisa ser recarregado. &lt; br / &gt; as alterações de última hora não podem ser preservadas, se houver.</value>
+  </data>
+  <data name="ASPxRichEditStringId.OpeningAndOverstoreImpossibleError" xml:space="preserve">
+    <value>a abrir e salvar documentos as operações não são permitidas &lt; br / &gt; desde que o diretório de trabalho não é especificado para o editor.</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerFirstLineIdentTitle" xml:space="preserve">
+    <value>Primeira linha Ident</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerLeftIdentTitle" xml:space="preserve">
+    <value>Esquerda Ident</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupHeaderFooter" xml:space="preserve">
+    <value>Cabeçalho &amp; &amp; rodapé</value>
+  </data>
+  <data name="ASPxRichEditStringId.GroupDocumentViews" xml:space="preserve">
+    <value>Documento Views</value>
+  </data>
+  <data name="ASPxRichEditStringId.AllCaps" xml:space="preserve">
+    <value>Todos os tampões</value>
+  </data>
+  <data name="ASPxRichEditStringId.ClipboardAccessDeniedError" xml:space="preserve">
+    <value>Acesso para a área de transferência é negado devido a política de segurança. do seu navegador &lt; br / &gt; em vez disso, você pode usar os atalhos de teclado: &lt; br / &gt; Ctrl + X (cortar), Ctrl + C (copiar) e Ctrl + V (colar).</value>
+  </data>
+  <data name="ASPxRichEditStringId.DifferentFirstPage" xml:space="preserve">
+    <value>Primeira página diferente</value>
+  </data>
+  <data name="ASPxRichEditStringId.UnderlineWordsOnly" xml:space="preserve">
+    <value>Sublinhar palavras apenas</value>
+  </data>
+  <data name="ASPxRichEditStringId.RulerRightIdentTitle" xml:space="preserve">
+    <value>Bem Ident</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImage_EnterUrl" xml:space="preserve">
+    <value>Endereço de web imagem Enter</value>
+  </data>
+  <data name="ASPxRichEditStringId.InsertImage_UploadInstructions" xml:space="preserve">
+    <value>Procurar o seu computador para o arquivo de imagem para carregar</value>
+  </data>
+  <data name="ASPxRichEditStringId.ConfirmOnLosingChanges" xml:space="preserve">
+    <value>? Todos os dados do documento não salvas serão perdidos.</value>
+  </data>
+</root>

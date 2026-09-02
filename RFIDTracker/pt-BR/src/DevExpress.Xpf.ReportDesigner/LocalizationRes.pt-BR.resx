@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportDesignerStringId.BorderDashStyle_Hint" xml:space="preserve">
+    <value>Especifique o estilo de tracejado para a borda do elemento</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageLoadError" xml:space="preserve">
+    <value>Ocorreu um erro ao carregar uma imagem</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageEditorClear" xml:space="preserve">
+    <value>Clara</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlCheckboxNode" xml:space="preserve">
+    <value>Caixa de seleção</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlFieldsNode" xml:space="preserve">
+    <value>Campos de controle</value>
+  </data>
+  <data name="ReportDesignerStringId.FontName_Caption" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ReportDesignerStringId.FontSize_Caption" xml:space="preserve">
+    <value>Tamanho da fonte</value>
+  </data>
+  <data name="ReportDesignerStringId.FontSize_Hint" xml:space="preserve">
+    <value>Alterar o tamanho da fonte</value>
+  </data>
+  <data name="ReportDesignerStringId.FontUnderline_Caption" xml:space="preserve">
+    <value>Sublinhar</value>
+  </data>
+  <data name="ReportDesignerStringId.FontUnderline_Hint" xml:space="preserve">
+    <value>Sublinhar o texto selecionado</value>
+  </data>
+  <data name="ReportDesignerStringId.ForeColor_Caption" xml:space="preserve">
+    <value>Cor do primeiro plano</value>
+  </data>
+  <data name="ReportDesignerStringId.ForeColor_Hint" xml:space="preserve">
+    <value>Alterar a cor de primeiro plano</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageEditorCaption" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutBringToFront_Hint" xml:space="preserve">
+    <value>Trazer os controles selecionados para a frente</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutCenterHorizontally_Caption" xml:space="preserve">
+    <value>Centralizar horizontalmente</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutCenterHorizontally_Hint" xml:space="preserve">
+    <value>Centralizar horizontalmente os controles selecionados dentro de uma faixa</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutCenterVertically_Caption" xml:space="preserve">
+    <value>Centralizar verticalmente</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutCenterVertically_Hint" xml:space="preserve">
+    <value>Centralizar verticalmente os controles selecionados dentro de uma faixa</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutDecreaseHorizontalSpace_Caption" xml:space="preserve">
+    <value>Aumentar o espaçamento Horizontal</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutDecreaseHorizontalSpace_Hint" xml:space="preserve">
+    <value>Diminuir o espaçamento horizontal entre os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutDecreaseVerticalSpacing_Caption" xml:space="preserve">
+    <value>Diminuir o espaçamento Vertical</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutDecreaseVerticalSpacing_Hint" xml:space="preserve">
+    <value>Diminuir o espaçamento vertical entre os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutEquateHorizontalSpace_Caption" xml:space="preserve">
+    <value>Igualar espaçamento Horizontal</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutRemoveVerticalSpacing_Hint" xml:space="preserve">
+    <value>Centralizar horizontalmente os controles selecionados dentro de uma faixa</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutSameHeight_Caption" xml:space="preserve">
+    <value>Faça a mesma altura</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutSameHeight_Hint" xml:space="preserve">
+    <value>Fazer os controles selecionados têm a mesma altura</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupBorders_Caption" xml:space="preserve">
+    <value>Bordas</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_LabelOptions_Description" xml:space="preserve">
+    <value>Você pode ajustar parâmetros do rótulo aqui se necessário.</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutSendToBack_Caption" xml:space="preserve">
+    <value>Enviar para trás</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignMiddle_Hint" xml:space="preserve">
+    <value>Alinhar os centros dos controles selecionados horizontalmente</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignVerticalCenter_Caption" xml:space="preserve">
+    <value>Alinhar centros</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignVerticalCenter_Hint" xml:space="preserve">
+    <value>Alinhar os centros dos controles selecionados verticalmente</value>
+  </data>
+  <data name="ReportDesignerStringId.BackColor_Caption" xml:space="preserve">
+    <value>Cor de fundo</value>
+  </data>
+  <data name="ReportDesignerStringId.BackColor_Hint" xml:space="preserve">
+    <value>Alterar a cor de fundo</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingEditorCaption" xml:space="preserve">
+    <value>Vinculação</value>
+  </data>
+  <data name="ReportDesignerStringId.BorderLineWidth_Hint" xml:space="preserve">
+    <value>Especificar a largura da borda de um elemento</value>
+  </data>
+  <data name="ReportDesignerStringId.Borders_Caption" xml:space="preserve">
+    <value>Bordas</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersAll_Caption" xml:space="preserve">
+    <value>Todas as bordas</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersLeft_Caption" xml:space="preserve">
+    <value>Borda esquerda</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersTop_Caption" xml:space="preserve">
+    <value>Borda superior</value>
+  </data>
+  <data name="ReportDesignerStringId.DiscardReportChanges_Caption" xml:space="preserve">
+    <value>Descartar alterações</value>
+  </data>
+  <data name="ReportDesignerStringId.DiscardReportChanges_Hint" xml:space="preserve">
+    <value>Descartar todas as alterações feitas após o salvamento último documento</value>
+  </data>
+  <data name="ReportDesignerStringId.EditWatermark_Caption" xml:space="preserve">
+    <value>Marca d'água</value>
+  </data>
+  <data name="ReportDesignerStringId.EditWatermark_Hint" xml:space="preserve">
+    <value>Editar marca d'água</value>
+  </data>
+  <data name="ReportDesignerStringId.Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlLabelNode" xml:space="preserve">
+    <value>Rótulo</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlLineNode" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlPictureNode" xml:space="preserve">
+    <value>Caixa de imagem</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_ControlShapeNode" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_DummyNode" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList_NoneNode" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldListPanel_Caption" xml:space="preserve">
+    <value>Lista de campos</value>
+  </data>
+  <data name="ReportDesignerStringId.FontBold_Hint" xml:space="preserve">
+    <value>Fazer o texto selecionado em negrito</value>
+  </data>
+  <data name="ReportDesignerStringId.FontItalic_Caption" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageEditorLoad" xml:space="preserve">
+    <value>Carga</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyCenter_Caption" xml:space="preserve">
+    <value>Centralizar o texto</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyCenter_Hint" xml:space="preserve">
+    <value>Centralizar o texto</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyJustify_Caption" xml:space="preserve">
+    <value>Justificar</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyLeft_Caption" xml:space="preserve">
+    <value>Alinhar à esquerda do texto</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyLeft_Hint" xml:space="preserve">
+    <value>Alinhar texto à esquerda</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyRight_Caption" xml:space="preserve">
+    <value>Alinhar à direita o texto</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyRight_Hint" xml:space="preserve">
+    <value>Alinhar texto à direita</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutBringToFront_Caption" xml:space="preserve">
+    <value>Trazer para frente</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutEquateVerticalSpacing_Caption" xml:space="preserve">
+    <value>Igualar Espaçamento Vertical</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutIncreaseHorizontalSpace_Caption" xml:space="preserve">
+    <value>Aumentar o espaçamento Horizontal</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutIncreaseHorizontalSpace_Hint" xml:space="preserve">
+    <value>Aumentar o espaçamento horizontal entre os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutIncreaseVerticalSpacing_Caption" xml:space="preserve">
+    <value>Aumentar o espaçamento Vertical</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutIncreaseVerticalSpacing_Hint" xml:space="preserve">
+    <value>Aumentar o espaçamento vertical entre os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutRemoveHorizontalSpace_Caption" xml:space="preserve">
+    <value>Remover espaçamento Horizontal</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutRemoveHorizontalSpace_Hint" xml:space="preserve">
+    <value>Remover o espaçamento horizontal entre os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutRemoveVerticalSpacing_Caption" xml:space="preserve">
+    <value>Centralizar horizontalmente</value>
+  </data>
+  <data name="ReportDesignerStringId.LineEditor_LineDirection" xml:space="preserve">
+    <value>Direção da Linha:</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupAlignment_Caption" xml:space="preserve">
+    <value>Alinhamento</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupFont_Caption" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupLayout_Caption" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupPageOptions_Caption" xml:space="preserve">
+    <value>Opções de página</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupPanels_Caption" xml:space="preserve">
+    <value>Painéis</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupReport_Caption" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupZoom_Caption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_Caption" xml:space="preserve">
+    <value>Configuração de página</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseColumns_Description" xml:space="preserve">
+    <value>Selecione as colunas que você deseja exibir no seu relatório.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseDataConnection" xml:space="preserve">
+    <value>Itens disponíveis</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType" xml:space="preserve">
+    <value>Escolha um tipo de relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Description" xml:space="preserve">
+    <value>Selecione o tipo de relatório que você deseja criar.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseSummaryOptions" xml:space="preserve">
+    <value>Escolha as opções de resumo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CreateANewDataset" xml:space="preserve">
+    <value>Escolha uma fonte de dados</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Height" xml:space="preserve">
+    <value>Altura:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_IgnoreNull" xml:space="preserve">
+    <value>Ignorar valores nulos</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Landscape" xml:space="preserve">
+    <value>Paisagem</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Outline1" xml:space="preserve">
+    <value>Contorno 1</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Outline2" xml:space="preserve">
+    <value>Contorno 2</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_PageSize" xml:space="preserve">
+    <value>Tamanho da página:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportTitle" xml:space="preserve">
+    <value>Especifique o título do relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportTypeStandard" xml:space="preserve">
+    <value>Relatório padrão</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SideMargin" xml:space="preserve">
+    <value>Margem lateral:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_StyleCasual" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_StyleFormal" xml:space="preserve">
+    <value>Formal</value>
+  </data>
+  <data name="ReportDesignerStringId.ShowFieldList_Caption" xml:space="preserve">
+    <value>Lista de campos</value>
+  </data>
+  <data name="ReportDesignerStringId.ShowFieldList_Hint" xml:space="preserve">
+    <value>Mostrar a lista de campos</value>
+  </data>
+  <data name="ReportDesignerStringId.ZoomOut_Caption" xml:space="preserve">
+    <value>Diminuir o zoom</value>
+  </data>
+  <data name="ReportDesignerStringId.ZoomOut_Hint" xml:space="preserve">
+    <value>Diminuir o zoom para ver mais do relatório em um tamanho reduzido</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AddGroupingLvl" xml:space="preserve">
+    <value>Criar Grupos</value>
+  </data>
+  <data name="ReportDesignerStringId.BorderColor_Caption" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersBottom_Caption" xml:space="preserve">
+    <value>Borda inferior</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersNone_Caption" xml:space="preserve">
+    <value>Sem borda</value>
+  </data>
+  <data name="ReportDesignerStringId.BordersRight_Caption" xml:space="preserve">
+    <value>Borda direita</value>
+  </data>
+  <data name="ReportDesignerStringId.LineEditor_Color" xml:space="preserve">
+    <value>Cor do primeiro plano:</value>
+  </data>
+  <data name="ReportDesignerStringId.LineEditor_LineStyle" xml:space="preserve">
+    <value>Estilo de linha:</value>
+  </data>
+  <data name="ReportDesignerStringId.LineEditor_LineWidth" xml:space="preserve">
+    <value>Largura de linha:</value>
+  </data>
+  <data name="ReportDesignerStringId.LineEditorCaption" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="ReportDesignerStringId.NewReportWizard_Caption" xml:space="preserve">
+    <value>Novo relatório via Wizard...</value>
+  </data>
+  <data name="ReportDesignerStringId.OpenReport_Caption" xml:space="preserve">
+    <value>Abrir...</value>
+  </data>
+  <data name="ReportDesignerStringId.OpenReport_Hint" xml:space="preserve">
+    <value>Abrir um relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AlignLeft1" xml:space="preserve">
+    <value>Alinhar à esquerda 1</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AlignLeft2" xml:space="preserve">
+    <value>Alinhar à esquerda 2</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AvailableFields" xml:space="preserve">
+    <value>Campos disponíveis</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AvailableItems" xml:space="preserve">
+    <value>Itens disponíveis</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Count" xml:space="preserve">
+    <value>Contagem</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Fields" xml:space="preserve">
+    <value>Campos</value>
+  </data>
+  <data name="ReportDesignerStringId.FontBold_Caption" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_StyleBold" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="ReportDesignerStringId.PageGroupDesign_Caption" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Tables" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Sum" xml:space="preserve">
+    <value>Soma</value>
+  </data>
+  <data name="ReportDesignerStringId.Zoom_Caption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Portrait" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="ReportDesignerStringId.ZoomIn_Caption" xml:space="preserve">
+    <value>Zoom de Aproximação</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutSameWidth_Caption" xml:space="preserve">
+    <value>Tornar da Mesma Largura</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditorCaption" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="ReportDesignerStringId.PageDefault_Caption" xml:space="preserve">
+    <value>Gerador de Relatórios</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseTableOrView" xml:space="preserve">
+    <value>Escolher uma tabela ou exibição</value>
+  </data>
+  <data name="ReportDesignerStringId.CommandContainer_Indexer_EmptyOrNullId" xml:space="preserve">
+    <value>Id do comando é nula ou vazia</value>
+  </data>
+  <data name="ReportDesignerStringId.BorderColor_Hint" xml:space="preserve">
+    <value>Especifique a cor da borda de um elemento</value>
+  </data>
+  <data name="ReportDesignerStringId.Borders_Hint" xml:space="preserve">
+    <value>Editar configurações de borda de um elemento</value>
+  </data>
+  <data name="ReportDesignerStringId.JustifyJustify_Hint" xml:space="preserve">
+    <value>Alinhar texto para ambos os lados esquerdo e direito, adicionando espaço extra entre palavras conforme necessário</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutEquateHorizontalSpace_Hint" xml:space="preserve">
+    <value>Fazer o espaçamento horizontal entre os controles selecionados iguais</value>
+  </data>
+  <data name="ReportDesignerStringId.LayoutEquateVerticalSpacing_Hint" xml:space="preserve">
+    <value>Fazer o espaçamento vertical entre os controles selecionados iguais</value>
+  </data>
+  <data name="ReportDesignerStringId.LoadImage" xml:space="preserve">
+    <value>Imagem de carga</value>
+  </data>
+  <data name="ReportDesignerStringId.NewReportWizard_Hint" xml:space="preserve">
+    <value>Inicie o assistente de relatório para criar um novo relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AddConnection" xml:space="preserve">
+    <value>Adicionar conexão...</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AdjustFields" xml:space="preserve">
+    <value>Ajustar a largura do campo para que todos os campos caibam em uma página</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Avg" xml:space="preserve">
+    <value>AVG</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseColumns" xml:space="preserve">
+    <value>Escolher colunas para exibir em seu relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CreateANewDataset_Description" xml:space="preserve">
+    <value>Selecione uma fonte de dados para usar no seu relatório.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_FieldsToDisplay" xml:space="preserve">
+    <value>Campos para exibir em um relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_HorizontalPitch" xml:space="preserve">
+    <value>Pitch horizontal:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_InputDatasetName" xml:space="preserve">
+    <value>Nome do conjunto de dados de entrada</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_LabelHeight" xml:space="preserve">
+    <value>Rótulo altura:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_LabelInformation" xml:space="preserve">
+    <value>Informações do rótulo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_LabelInformation_Description" xml:space="preserve">
+    <value>Selecione um dos rótulos predefinidos, especificando o produto e seu ID</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_PageType" xml:space="preserve">
+    <value>Tipo de página:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ProductNumber" xml:space="preserve">
+    <value>Número do produto</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportComplete_Description" xml:space="preserve">
+    <value>Temos todas as informações necessárias para processar o relatório.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportLayout_Description" xml:space="preserve">
+    <value>O layout do relatório especifica a maneira na qual os campos de dados selecionados são organizados em páginas individuais.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportStyle" xml:space="preserve">
+    <value>Escolha um estilo de relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportStyle_Description" xml:space="preserve">
+    <value>o estilo do relatório especifica a aparência do seu relatório.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Width" xml:space="preserve">
+    <value>Largura:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_WizardWelcome" xml:space="preserve">
+    <value>Bem-vindo ao Assistente de relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_WizardWelcome_Description" xml:space="preserve">
+    <value>Este assistente ajuda você a criar automaticamente um relatório baseado sobre as opções que você selecionar.</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReport_Caption" xml:space="preserve">
+    <value>Salvar as alterações</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReport_Hint" xml:space="preserve">
+    <value>Salvar as alterações ao documento</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_Angle" xml:space="preserve">
+    <value>Ângulo:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_FillColor" xml:space="preserve">
+    <value>Cor de preenchimento:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_LineWidth" xml:space="preserve">
+    <value>Largura de linha:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_NumberOfSides" xml:space="preserve">
+    <value>o número de lados:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_Type" xml:space="preserve">
+    <value>Forma:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShowControlDesignBorder_Caption" xml:space="preserve">
+    <value>Fronteiras do design</value>
+  </data>
+  <data name="ReportDesignerStringId.StatusInfoDisplayText" xml:space="preserve">
+    <value>x = {0} y = {1} {2} pixels x {3} pixels</value>
+  </data>
+  <data name="ReportDesignerStringId.Zoom_Hint" xml:space="preserve">
+    <value>Alterar o fator de zoom do designer de relatórios</value>
+  </data>
+  <data name="ReportDesignerStringId.ZoomIn_Hint" xml:space="preserve">
+    <value>Zoom para obter uma vista close-up do relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignBottom_Hint" xml:space="preserve">
+    <value>Alinhar as partes inferiores dos controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignLeft_Caption" xml:space="preserve">
+    <value>Alinhar esquerdas</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AddGroupingLvl_Description" xml:space="preserve">
+    <value>Criar vários grupos, cada um com um valor de campo único, ou definir vários domínios no mesmo grupo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportComplete" xml:space="preserve">
+    <value>O relatório está concluída</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ReportLayout" xml:space="preserve">
+    <value>Escolher um Layout de relatório</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignLeft_Hint" xml:space="preserve">
+    <value>Esquerda alinhar os controles selecionados</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignMiddle_Caption" xml:space="preserve">
+    <value>Alinhar vãos</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_TopMargin" xml:space="preserve">
+    <value>Top margem:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_VerticalPitch" xml:space="preserve">
+    <value>Oscilação vertical:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_Fillet" xml:space="preserve">
+    <value>Filé:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_StarPointCount" xml:space="preserve">
+    <value>o número de pontos da estrela:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShapeEditor_Stretch" xml:space="preserve">
+    <value>Trecho:</value>
+  </data>
+  <data name="ReportDesignerStringId.ShowControlDesignBorder_Hint" xml:space="preserve">
+    <value>Mostrar o controle das fronteiras do Design</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignBottom_Caption" xml:space="preserve">
+    <value>Align Bottoms</value>
+  </data>
+</root>

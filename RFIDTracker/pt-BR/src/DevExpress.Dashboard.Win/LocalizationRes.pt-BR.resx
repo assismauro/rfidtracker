@@ -1,0 +1,2790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardWinStringId.BarDashboardCaption" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="DashboardWinStringId.ChartCannotRenderData" xml:space="preserve">
+    <value>Informação não pode ser renderizada em um gráfico</value>
+    <comment>Specified data cannot be rendered in a chart</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRotateCaption" xml:space="preserve">
+    <value>Girar</value>
+    <comment>Rotate</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRotateDescription" xml:space="preserve">
+    <value>Girar diagrama 90º.</value>
+    <comment>Rotate the diagram at 90°.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendCaption" xml:space="preserve">
+    <value>Apresentar Legenda</value>
+    <comment>Show Legend</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendDescription" xml:space="preserve">
+    <value>Apresenta legenda para auxiliar na visualização dos elementos do gráfico.</value>
+    <comment>Show the legend that helps end-users identify chart elements.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartYAxisSettingsCaption" xml:space="preserve">
+    <value>Opções do Eixo Y</value>
+    <comment>Y-Axis Settings</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandChartYAxisSettingsDescription" xml:space="preserve">
+    <value>Apresenta configurações do Eixo Y, como visibilidade, título e faixa de apresentação.</value>
+    <comment>Access various Y-axis settings, such as the visibility, title and displayed range.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandClearFilterCaption" xml:space="preserve">
+    <value>Limpar</value>
+    <comment>Clear</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandClearFilterDescription" xml:space="preserve">
+    <value>Resetar as configurações de filtro e desabilitá-lo.</value>
+    <comment>Reset the filter criterion and turn off filtering.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInColumnsCaption" xml:space="preserve">
+    <value>Organiza em Colunas</value>
+    <comment>Arrange in Columns</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInColumnsDescription" xml:space="preserve">
+    <value>Organiza os elementos no número específico de colunas.</value>
+    <comment>Arrange the elements in the specified number of columns.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInRowsCaption" xml:space="preserve">
+    <value>Organiza em Linhas</value>
+    <comment>Arrange in Rows</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangeInRowsDescription" xml:space="preserve">
+    <value>Organiza os elementos no número específico de linhas.</value>
+    <comment>Arrange the elements in the specified number of rows.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangementCountCaption" xml:space="preserve">
+    <value>Count</value>
+    <comment>Count</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentArrangementCountDescription" xml:space="preserve">
+    <value>Número de colunas ou linhas</value>
+    <comment>The number of columns or rows.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentAutoArrangeCaption" xml:space="preserve">
+    <value>Organizar automaticamente</value>
+    <comment>Auto Arrange</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandContentAutoArrangeDescription" xml:space="preserve">
+    <value>Número de colunas e linhas é definido automaticamente.</value>
+    <comment>The number of columns and rows is defined automatically.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringCaption" xml:space="preserve">
+    <value>Filtro entre Fonte de Dados</value>
+    <comment>Cross-Data-Source Filtering</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringDescription" xml:space="preserve">
+    <value>Faz com que os Controles do Painel de outras fontes de dados sejam afetados pelo Filtro Principal. Para isto, o filtro é feito nas colunas que possuem o mesmo nome.</value>
+    <comment>Make dashboard items that display data from other data sources affected by this Master Filter. In this instance, filtering is performed if the names of data items match.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteItemCaption" xml:space="preserve">
+    <value>Deletar</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteItemDescription" xml:space="preserve">
+    <value>Remove o controle selecionado do Painel.</value>
+    <comment>Delete the selected dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortAscending" xml:space="preserve">
+    <value>Ordenação crescente</value>
+    <comment>Sort Ascending</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortDescending" xml:space="preserve">
+    <value>Ordenação descrescente</value>
+    <comment>Sort Descending</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionTopN" xml:space="preserve">
+    <value>Top N...</value>
+    <comment>Top N...</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillDownCaption" xml:space="preserve">
+    <value>Expandir</value>
+    <comment>Drill Down</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDuplicateItemCaption" xml:space="preserve">
+    <value>Duplicar</value>
+    <comment>Duplicate</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDuplicateItemDescription" xml:space="preserve">
+    <value>Cria uma cópia do controle selecionado.</value>
+    <comment>Create a copy of the selected dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceCaption" xml:space="preserve">
+    <value>Editar</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceDescription" xml:space="preserve">
+    <value>Editar a Fonte de Dados atual no modo visual, incluindo diferentes tabelas e/ou colunas da base de dados.</value>
+    <comment>Edit the current data source in the Query Designer by including different tables and columns from the current database.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterCaption" xml:space="preserve">
+    <value>Editar Filtro</value>
+    <comment>Edit Filter</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterDescription" xml:space="preserve">
+    <value>Define um novo critério para quais informações serão apresentadas no controle.</value>
+    <comment>Specify a criterion that defines which data should be displayed within the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditNamesCaption" xml:space="preserve">
+    <value>Editar Nomes...</value>
+    <comment>Edit Names...</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandEditNamesDescription" xml:space="preserve">
+    <value>Define nomes para os controle do Painel.</value>
+    <comment>Specify names for the dashboard item and data items it contains.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleFullCircularCaption" xml:space="preserve">
+    <value>Círculo Completo</value>
+    <comment>Full Circular</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleFullCircularDescription" xml:space="preserve">
+    <value>Apresenta Gauge circular.</value>
+    <comment>Display full circular gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleHalfCircularCaption" xml:space="preserve">
+    <value>Meio Círculo</value>
+    <comment>Half-Circular</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleHalfCircularDescription" xml:space="preserve">
+    <value>Apresenta Gauge em meio círculo.</value>
+    <comment>Display half-circular gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLeftQuarterCircularCaption" xml:space="preserve">
+    <value>Quarto de Círculo (Esquerda)</value>
+    <comment>Left-Quarter Circular</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLeftQuarterCircularDescription" xml:space="preserve">
+    <value>Apresenta Gauges em forma quarto de círculo (à esquerda).</value>
+    <comment>Display left-quarter circular gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearHorizontalCaption" xml:space="preserve">
+    <value>Linear Horizontal</value>
+    <comment>Linear Horizontal</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearHorizontalDescription" xml:space="preserve">
+    <value>Apresenta Gauges de forma horizontal linear.</value>
+    <comment>Display horizontal linear gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearVerticalCaption" xml:space="preserve">
+    <value>Linear Vertical</value>
+    <comment>Linear Vertical</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleLinearVerticalDescription" xml:space="preserve">
+    <value>Apresenta Gauges de forma vertical linear.</value>
+    <comment>Display vertical linear gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleRightQuarterCircularCaption" xml:space="preserve">
+    <value>Quarto de Círculo (Direita)</value>
+    <comment>Right-Quarter Circular</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleRightQuarterCircularDescription" xml:space="preserve">
+    <value>Apresenta Gauges em forma quarto de círculo (à direita).</value>
+    <comment>Display right-quarter circular gauges.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsCaption" xml:space="preserve">
+    <value>Pintar Linhas</value>
+    <comment>Banded Rows</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsDescription" xml:space="preserve">
+    <value>Colore as linhas pares e ímpares de cores diferentes para tornar mais fácil a leitura do Grid.</value>
+    <comment>Paint the background of even and odd rows differently to make the grid easier to read.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersCaption" xml:space="preserve">
+    <value>Cabeçalhos das Colunas</value>
+    <comment>Column Headers</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersDescription" xml:space="preserve">
+    <value>Apresenta cabeçalho das colunas.</value>
+    <comment>Show column headers.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesCaption" xml:space="preserve">
+    <value>Linhas Horizontais</value>
+    <comment>Horizontal Lines</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesDescription" xml:space="preserve">
+    <value>Apresentar linhas horizontais.</value>
+    <comment>Show horizontal grid lines.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsCaption" xml:space="preserve">
+    <value>Mesclar células</value>
+    <comment>Merge Cells</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsDescription" xml:space="preserve">
+    <value>Mesclar células adjacentes com informações idênticas.</value>
+    <comment>Merge adjacent cells with identical data.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesCaption" xml:space="preserve">
+    <value>Linhas Verticais</value>
+    <comment>Vertical Lines</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesDescription" xml:space="preserve">
+    <value>Apresentar linhas verticais.</value>
+    <comment>Show vertical grid lines.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>Ignorar Filtro Principal</value>
+    <comment>Ignore Master Filters</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersDescription" xml:space="preserve">
+    <value>Faz com que o controle selecionado não seja afetado por outro Filtro Principal.</value>
+    <comment>Make this dashboard item unaffected by other Master Filters.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomCenterCaption" xml:space="preserve">
+    <value>Alinhar Inferior Centro</value>
+    <comment>Align Bottom Center</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomCenterDescription" xml:space="preserve">
+    <value>Centraliza a imagem horizontalmente e alinha em baixo.</value>
+    <comment>Center image horizontally and align it the bottom of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomLeftCaption" xml:space="preserve">
+    <value>Alinhar Inferior Esquerdo</value>
+    <comment>Align Bottom Left</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomLeftDescription" xml:space="preserve">
+    <value>Alinha imagem no canto inferior esquerdo.</value>
+    <comment>Align image to the bottom left corner of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomRightCaption" xml:space="preserve">
+    <value>Alinhar Inferior Direito</value>
+    <comment>Align Bottom Right</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentBottomRightDescription" xml:space="preserve">
+    <value>Alinha imagem no canto inferior direito.</value>
+    <comment>Align image to the bottom right corner of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCaption" xml:space="preserve">
+    <value>Alinhamento</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterCenterCaption" xml:space="preserve">
+    <value>Alinhar ao Centro</value>
+    <comment>Align Center</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterCenterDescription" xml:space="preserve">
+    <value>Centraliza texto horizontalmente e verticalmente.</value>
+    <comment>Center text horizontally and vertically within the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterLeftCaption" xml:space="preserve">
+    <value>Alinhar ao centro e esquerda</value>
+    <comment>Align Center Left</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterLeftDescription" xml:space="preserve">
+    <value>Centraliza imagem verticalmente e alinha à esquerda.</value>
+    <comment>Center image vertically and align it the left of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterRightCaption" xml:space="preserve">
+    <value>Alinhar ao centro e direita</value>
+    <comment>Align Center Right</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentCenterRightDescription" xml:space="preserve">
+    <value>Centraliza imagem verticalmente e alinha à direita.</value>
+    <comment>Center image vertically and align it the right of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopCenterCaption" xml:space="preserve">
+    <value>Alinhar ao topo e centro</value>
+    <comment>Align Top Center</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopCenterDescription" xml:space="preserve">
+    <value>Centraliza imagem horizontalmente e alinha ao topo.</value>
+    <comment>Center image horizontally and align it the top of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopLeftCaption" xml:space="preserve">
+    <value>Alinhar ao topo e esquerda</value>
+    <comment>Align Top Left</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopLeftDescription" xml:space="preserve">
+    <value>Alinha imagem ao canto superior esquerdo.</value>
+    <comment>Align image to the top left corner of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopRightCaption" xml:space="preserve">
+    <value>Alinhar ao topo e direita</value>
+    <comment>Align Top Right</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageAlignmentTopRightDescription" xml:space="preserve">
+    <value>Alinha imagem ao canto superior direito.</value>
+    <comment>Align image to the top right corner of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageImportCaption" xml:space="preserve">
+    <value>Importar Imagem</value>
+    <comment>Import Image</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageImportDescription" xml:space="preserve">
+    <value>Importa uma imagem de um arquivo. O Painel irá armazenar uma cópia da image.</value>
+    <comment>Import an image from a file. The dashboard will store a copy of the image.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageLoadCaption" xml:space="preserve">
+    <value>Carregar Imagem</value>
+    <comment>Load Image</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageLoadDescription" xml:space="preserve">
+    <value>Carrega uma imagem de um arquivo. O Dashboard irá armazenar o diretório da imagem e não a imagem em si.</value>
+    <comment>Load an image from a file. The dashboard will store the path to the image file and will not store the image itself.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeMode" xml:space="preserve">
+    <value>Modo de Apresentação</value>
+    <comment>Size Mode</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeClipCaption" xml:space="preserve">
+    <value>Recortar</value>
+    <comment>Clip</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeClipDescription" xml:space="preserve">
+    <value>A imagem será posicionada no canto superior esquerdo e recortada, se necessário.</value>
+    <comment>The image is placed in the upper-left corner of the dashboard item and clipped if necessary.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeSqueezeCaption" xml:space="preserve">
+    <value>Comprimir</value>
+    <comment>Squeeze</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeSqueezeDescription" xml:space="preserve">
+    <value>Se o controle excede o tamanho da imagem, a imagem é centralizada e apresentada normalmente. Caso contrário, a imagem é redimensionada para se adequar ao tamanho do controle.</value>
+    <comment>If the dashboard item 's dimensions exceed that of the image it contains, the image is centered and shown full-size. Otherwise, the image is resized to fit into the dashboard item 's dimensions.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeStretchCaption" xml:space="preserve">
+    <value>Estender</value>
+    <comment>Stretch</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeStretchDescription" xml:space="preserve">
+    <value>A imagem é esticada ou encolhida dentro do controle para se adequar ao tamanho do mesmo.</value>
+    <comment>The image within the dashboard item is stretched or shrunk as appropriate to fit the size of the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeZoomCaption" xml:space="preserve">
+    <value>Aumentar</value>
+    <comment>Zoom</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandImageSizeModeZoomDescription" xml:space="preserve">
+    <value>A imagem será apresentada com tamanho proporcional (sem cortes).</value>
+    <comment>The image is sized proportionally (without clipping), so that it is best fitted to the dashboard item.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertCardsCaption" xml:space="preserve">
+    <value>Cartões</value>
+    <comment>Cards</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertCardsDescription" xml:space="preserve">
+    <value>Cria um controle de Cartões para o Painel.
+
+Este controle apresenta uma série de cartões, que apresentam a diferença entre dois valores. Esta diferença pode ser expressa pelo valor absoluto, percentual absoluto ou percentual de variação.</value>
+    <comment>Create a card dashboard item and insert it into the dashboard.
+
+This item displays a series of cards each illustrating the difference between two values. This difference can be expressed in an absolute value, an absolute or percent variation.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChartCaption" xml:space="preserve">
+    <value>Gráfico</value>
+    <comment>Chart</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChartDescription" xml:space="preserve">
+    <value>Cria um Grádico para o Painel.
+
+O controle apresenta as informações no diagrama XY, disponibilizando inúmeros modos de visualização (Barras, Linhas, Áreas, Bolhas, etc.)</value>
+    <comment>Create a chart dashboard item and insert it into the dashboard.
+
+The chart visualizes data in an XY-diagram allowing you to render a wide range of diagram types – from simple bar or line charts to financial Open-High-Low-Close graphs.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGaugesCaption" xml:space="preserve">
+    <value>Indicadores</value>
+    <comment>Gauges</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGaugesDescription" xml:space="preserve">
+    <value>Cria um Gauge para o Painel.
+
+Este controle apresnta uma série de Gauges, cada um com apresentando o valor realizado e a meta.</value>
+    <comment>Create a gauge dashboard item and insert it into the dashboard.
+
+This item displays a series of gauges. Each gauge can communicate two values – one with a needle and the other with a marker on the scale.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGridCaption" xml:space="preserve">
+    <value>Grade</value>
+    <comment>Grid</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGridDescription" xml:space="preserve">
+    <value>Cria um Grid para o Painel.
+
+O Grid apresenta informações tabuladas, e permite sumarizações, comparações e colunas calculadas.</value>
+    <comment>Create a grid dashboard item and insert it into the dashboard.
+
+The grid shows data in a tabular form while allowing you to summarize against specific measures or calculate differences between them.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImageCaption" xml:space="preserve">
+    <value>Imagem</value>
+    <comment>Image</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertImageDescription" xml:space="preserve">
+    <value>Cria um Controle de Imagem para o Painel.</value>
+    <comment>Create an image dashboard item and insert it into the dashboard.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPiesCaption" xml:space="preserve">
+    <value>Gráfico Pizza</value>
+    <comment>Pies</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPiesDescription" xml:space="preserve">
+    <value>Cria um Gráfico do tipo Pizza para o Painel.
+
+Este tipo de controle apresenta séries do tipo Pizza ou Donut (Rosca) que representam a contribuição de cada valor no total.</value>
+    <comment>Create a pie dashboard item and insert it into the dashboard.
+
+This item displays a series of pies or donuts that represent the contribution of each value to a total.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPivotCaption" xml:space="preserve">
+    <value>Pivot Grid</value>
+    <comment>Pivot</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPivotDescription" xml:space="preserve">
+    <value>Cria um Pivot Grid para o Painel.
+
+O Pivot Grid apresenta informações cruzadas, permitindo agrupamentos. Utilize-o para apresentar informações multi-dimensionais de fácil compreenssão.</value>
+    <comment>Create a pivot grid dashboard item and insert it into the dashboard.
+
+The pivot grid displays a cross-tabular report. Use it to present multi-dimensional data in a human-readable way.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertRangeFilterCaption" xml:space="preserve">
+    <value>Filtro de Faixa</value>
+    <comment>Range Filter</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertRangeFilterDescription" xml:space="preserve">
+    <value>Cria um Filtro de Faixa para o Painel.
+
+O Filtro de Faixa permite que você aplique o filtro em outros controle do Painel.</value>
+    <comment>Create a range filter dashboard item and insert it into the dashboard.
+
+The Range Filter allows you to apply filtering to other dashboard items. Displays a chart with selection thumbs over it that allow you to filter out values displayed along the argument axis.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTextBoxCaption" xml:space="preserve">
+    <value>Texto</value>
+    <comment>Text Box</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTextBoxDescription" xml:space="preserve">
+    <value>Cria controle de Texto para o Painel.</value>
+    <comment>Create a text box dashboard item and insert it into the dashboard.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDashboardCaption" xml:space="preserve">
+    <value>Novo</value>
+    <comment>New</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDashboardDescription" xml:space="preserve">
+    <value>Criar novo Dashboard</value>
+    <comment>Create a new dashboard</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDataSourceCaption" xml:space="preserve">
+    <value>Nova Fonte de Dados</value>
+    <comment>New Data Source</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandNewDataSourceDescription" xml:space="preserve">
+    <value>Criar nova Fonte de Dados
+
+Configure os dados de conexão utilizando o assistente de Criação de Fonte de Dados.</value>
+    <comment>Create a new data source.
+
+Configure connection settings using the Create Data Source wizard and compose a data source in the Query Designer.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandNumericFormat" xml:space="preserve">
+    <value>Formatar...</value>
+    <comment>Format...</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandOpenDashboardCaption" xml:space="preserve">
+    <value>Abrir</value>
+    <comment>Open</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandOpenDashboardDescription" xml:space="preserve">
+    <value>Abrir arquivo de Painel</value>
+    <comment>Open a dashboard file</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentCaption" xml:space="preserve">
+    <value>Descrição e Percentual</value>
+    <comment>Argument And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndPercentDescription" xml:space="preserve">
+    <value>Descrição e Percentual</value>
+    <comment>Argument And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueCaption" xml:space="preserve">
+    <value>Descrição e Valor</value>
+    <comment>Argument And Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentAndValueDescription" xml:space="preserve">
+    <value>Descrição e Valor</value>
+    <comment>Argument And Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentCaption" xml:space="preserve">
+    <value>Descrição</value>
+    <comment>Argument</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentDescription" xml:space="preserve">
+    <value>Descrição</value>
+    <comment>Argument</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>Descrição, Valor e Percentual</value>
+    <comment>Argument, Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>Descrição</value>
+    <comment>Argument, Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsCaption" xml:space="preserve">
+    <value>Rótulo de dados</value>
+    <comment>Data Labels</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsDescription" xml:space="preserve">
+    <value>Especifique quais valores serão apresentados dentro dos rótulos</value>
+    <comment>Specify which values should be displayed within data labels.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsNoneCaption" xml:space="preserve">
+    <value>Nenhum</value>
+    <comment>None</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsNoneDescription" xml:space="preserve">
+    <value>Não apresentar labels (rótulos)</value>
+    <comment>Do not display data labels</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentCaption" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsPercentDescription" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentCaption" xml:space="preserve">
+    <value>Valor e Percentual</value>
+    <comment>Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueAndPercentDescription" xml:space="preserve">
+    <value>Valor e Percentual</value>
+    <comment>Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueCaption" xml:space="preserve">
+    <value>Valor</value>
+    <comment>Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsValueDescription" xml:space="preserve">
+    <value>Valor</value>
+    <comment>Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomCaption" xml:space="preserve">
+    <value>Baixo</value>
+    <comment>Bottom</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionBottomDescription" xml:space="preserve">
+    <value>Baixo</value>
+    <comment>Bottom</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionCaption" xml:space="preserve">
+    <value>Posição da Legenda</value>
+    <comment>Legend Position</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionDescription" xml:space="preserve">
+    <value>Selecione a posição da legenda.</value>
+    <comment>Select the position of the legend.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftCaption" xml:space="preserve">
+    <value>Esquerda</value>
+    <comment>Left</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionLeftDescription" xml:space="preserve">
+    <value>Esquerda</value>
+    <comment>Left</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneCaption" xml:space="preserve">
+    <value>Nenhum</value>
+    <comment>None</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionNoneDescription" xml:space="preserve">
+    <value>Nenhum</value>
+    <comment>None</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightCaption" xml:space="preserve">
+    <value>Direita</value>
+    <comment>Right</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionRightDescription" xml:space="preserve">
+    <value>Direita</value>
+    <comment>Right</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopCaption" xml:space="preserve">
+    <value>Topo</value>
+    <comment>Top</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopDescription" xml:space="preserve">
+    <value>Topo</value>
+    <comment>Top</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopRightCaption" xml:space="preserve">
+    <value>Topo e Direita</value>
+    <comment>TopRight</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsLegendPositionTopRightDescription" xml:space="preserve">
+    <value>Topo e Direta</value>
+    <comment>TopRight</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentCaption" xml:space="preserve">
+    <value>Descrição e Percentual</value>
+    <comment>Argument And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndPercentDescription" xml:space="preserve">
+    <value>Descrição e Percentual</value>
+    <comment>Argument And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueCaption" xml:space="preserve">
+    <value>Descrição e Valor</value>
+    <comment>Argument And Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentAndValueDescription" xml:space="preserve">
+    <value>Descrição e Valor</value>
+    <comment>Argument And Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentCaption" xml:space="preserve">
+    <value>Descrição</value>
+    <comment>Argument</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentDescription" xml:space="preserve">
+    <value>Descrição</value>
+    <comment>Argument</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentCaption" xml:space="preserve">
+    <value>Descrição, Valor e Percentual</value>
+    <comment>Argument, Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsArgumentValueAndPercentDescription" xml:space="preserve">
+    <value>Descrição, Valor e Percentual</value>
+    <comment>Argument, Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsCaption" xml:space="preserve">
+    <value>Tooltips</value>
+    <comment>Tooltips</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsDescription" xml:space="preserve">
+    <value>Informa quais valores deverão ser apresentados nas descrições.</value>
+    <comment>Specify which values should be displayed within tooltips.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneCaption" xml:space="preserve">
+    <value>Nenhum</value>
+    <comment>None</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsNoneDescription" xml:space="preserve">
+    <value>Nenhum</value>
+    <comment>None</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentCaption" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsPercentDescription" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentCaption" xml:space="preserve">
+    <value>Valor e Percentual</value>
+    <comment>Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueAndPercentDescription" xml:space="preserve">
+    <value>Valor e Percentual</value>
+    <comment>Value And Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueCaption" xml:space="preserve">
+    <value>Valor</value>
+    <comment>Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsTooltipsValueDescription" xml:space="preserve">
+    <value>Valor</value>
+    <comment>Value</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStyleDonutCaption" xml:space="preserve">
+    <value>Donut.</value>
+    <comment>Donut</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStyleDonutDescription" xml:space="preserve">
+    <value>Apresentar donuts .</value>
+    <comment>Display donuts.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStylePieCaption" xml:space="preserve">
+    <value>Pizza</value>
+    <comment>Pie</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandPieStylePieDescription" xml:space="preserve">
+    <value>Apresentar pizzas.</value>
+    <comment>Display pies.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeAreaCaption" xml:space="preserve">
+    <value>Área</value>
+    <comment>Area</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeAreaDescription" xml:space="preserve">
+    <value>Modificar séries para o tipo Área.</value>
+    <comment>Set the Area type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedAreaCaption" xml:space="preserve">
+    <value>Área Totalmente Empilhada</value>
+    <comment>Full-Stacked Area</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedAreaDescription" xml:space="preserve">
+    <value>Altera tipo de todas as séries para Área Totalmente Empilhada</value>
+    <comment>Set the Full-Stacked Area type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedLineCaption" xml:space="preserve">
+    <value>Linha Totalmente Empilhada</value>
+    <comment>Full-Stacked Line</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeFullStackedLineDescription" xml:space="preserve">
+    <value>Altera tipo de todas as séries para Linha Totalmente Empilhada</value>
+    <comment>Set the Full-Stacked Line type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeLineCaption" xml:space="preserve">
+    <value>Linha</value>
+    <comment>Line</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeLineDescription" xml:space="preserve">
+    <value>Altera tipo de todas as séries para Linha</value>
+    <comment>Set the Line type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedAreaCaption" xml:space="preserve">
+    <value>Área Empilhada</value>
+    <comment>Stacked Area</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedAreaDescription" xml:space="preserve">
+    <value>Altera tipo de todas as séries para Área Empilhada</value>
+    <comment>Set the Stacked Area type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedLineCaption" xml:space="preserve">
+    <value>Linha Empilhada</value>
+    <comment>Stacked Line</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRangeFilterSeriesTypeStackedLineDescription" xml:space="preserve">
+    <value>Altera tipo de todas as séries para Linha Empilhada</value>
+    <comment>Set the Stacked Line type for all series.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRedoCaption" xml:space="preserve">
+    <value>Refazer</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandRedoDescription" xml:space="preserve">
+    <value>Refazer '{0}'</value>
+    <comment>Redo '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveAsDashboardCaption" xml:space="preserve">
+    <value>Salvar Como</value>
+    <comment>Save As</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveAsDashboardDescription" xml:space="preserve">
+    <value>Salvar cópia do Painel.</value>
+    <comment>Save a copy of the dashboard.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveDashboardCaption" xml:space="preserve">
+    <value>Salvar</value>
+    <comment>Save</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandSaveDashboardDescription" xml:space="preserve">
+    <value>Salvar Painel.</value>
+    <comment>Save the dashboard.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionCaption" xml:space="preserve">
+    <value>Apresentar Descrição</value>
+    <comment>Show Caption</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionDescription" xml:space="preserve">
+    <value>Apresentar descrição dos controles do Painel.</value>
+    <comment>Show the dashboard item's caption.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextCaption" xml:space="preserve">
+    <value>Editar</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextDescription" xml:space="preserve">
+    <value>Editar conteúdo do campo.</value>
+    <comment>Edit the content of the text box.</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoCaption" xml:space="preserve">
+    <value>Desfazer</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoDescription" xml:space="preserve">
+    <value>Desfazer '{0}'</value>
+    <comment>Undo '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerCaption" xml:space="preserve">
+    <value>Design do Painel</value>
+    <comment>Dashboard Designer</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerConfirmSaveMessage" xml:space="preserve">
+    <value>Você deseja salvar as modificações em {0}?</value>
+    <comment>Do you want to save changes to {0}?</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerDefaultDashboardName" xml:space="preserve">
+    <value>Painel</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerUnableCreateBarsMessage" xml:space="preserve">
+    <value>Não foi possível criar barras. O Painel não está vinculado com um controle.</value>
+    <comment>Unable to create bars. The Dashboard Designer has not been assigned a parent control</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerUnableCreateRibbonMessage" xml:space="preserve">
+    <value>Não foi possível criar uma lista. O Painle não está vinculado com um controle.</value>
+    <comment>Unable to create a ribbon. The Dashboard Designer has not been assigned a parent control</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardLoadingError" xml:space="preserve">
+    <value>Não foi possível carregar o Painel porque o seguinte arquivo não está disponível ou não é válido.
+{0}
+Favor certifique-se de que a aplicação pode acessar o arquivo e este é válido, ou informe outro arquivo.</value>
+    <comment>Unable to load the dashboard because the following file is not available or it is not a valid dashboard file.
+{0}
+Please ensure that the application can access this file and that it is valid, or specify a different file.</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardOpeningError" xml:space="preserve">
+    <value>Não foi possível abrir o Painel porque o seguinte arquivo não está disponível.
+{0}
+Favor certifique-se de que a aplicação pode acessar este arquivo, ou informe outro.</value>
+    <comment>Cannot open the dashboard because the following file is not available.
+{0}
+Please ensure that the application can access this file or specify a different file.</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardSavingError" xml:space="preserve">
+    <value>Não foi possível salvar o Painel.
+Favor informar um diretório diferente ou certificar que você tem permissões para escrever no diretório especificado.</value>
+    <comment>Unable to save the dashboard.
+Please specify a different path or ensure that you have permissions to write to the specified path.
+{0}</comment>
+  </data>
+  <data name="DashboardWinStringId.DashboardViewerEmptyDesignerMessage" xml:space="preserve">
+    <value>O Painel está vazio. Carregue outro.</value>
+    <comment>This Dashboard Viewer is empty. Use the Load Dashboard smart tag to open a dashboard XML file or specify the path to this file via the DashboardUri property.</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatLongCaption" xml:space="preserve">
+    <value>Longo</value>
+    <comment>Long</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatShortCaption" xml:space="preserve">
+    <value>Curto</value>
+    <comment>Short</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Abreviado</value>
+    <comment>Abbreviated</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatFullCaption" xml:space="preserve">
+    <value>Completo</value>
+    <comment>Full</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatNumericCaption" xml:space="preserve">
+    <value>Numérico</value>
+    <comment>Numeric</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Abreviado</value>
+    <comment>Abbreviated</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatFullCaption" xml:space="preserve">
+    <value>Completo</value>
+    <comment>Full</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatNumericCaption" xml:space="preserve">
+    <value>Numérico</value>
+    <comment>Numeric</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatFullCaption" xml:space="preserve">
+    <value>Completo</value>
+    <comment>Full</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatNumericCaption" xml:space="preserve">
+    <value>Numérico</value>
+    <comment>Numeric</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatAbbreviatedCaption" xml:space="preserve">
+    <value>Abreviado</value>
+    <comment>Abbreviated</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+    <comment>Default</comment>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatFullCaption" xml:space="preserve">
+    <value>Completo</value>
+    <comment>Full</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeGreaterIsGoodCaption" xml:space="preserve">
+    <value>Quanto mais melhor</value>
+    <comment>Greater is good</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeLessIsGoodCaption" xml:space="preserve">
+    <value>Quanto menos melhor</value>
+    <comment>Less is good</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeNoIndicationCaption" xml:space="preserve">
+    <value>Sem indicativos</value>
+    <comment>No indication</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfGreaterCaption" xml:space="preserve">
+    <value>Atenção quando maior</value>
+    <comment>Warning if greater</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfLessCaption" xml:space="preserve">
+    <value>Atenção quando menor</value>
+    <comment>Warning if less</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypeAbsolute" xml:space="preserve">
+    <value>Absoluto</value>
+    <comment>Absolute</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypePercent" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeAbsoluteVariationCaption" xml:space="preserve">
+    <value>Variação Absoluta</value>
+    <comment>Variação Absoluta</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeActualValueCaption" xml:space="preserve">
+    <value>Valor Real</value>
+    <comment>Actual value</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentOfTargetCaption" xml:space="preserve">
+    <value>Percentual do Objeto</value>
+    <comment>Percent of target</comment>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentVariationCaption" xml:space="preserve">
+    <value>Percentual da Variação</value>
+    <comment>Percent variation</comment>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>Criar Barras</value>
+    <comment>Create Bars</comment>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>Criar Lista</value>
+    <comment>Create Ribbon</comment>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateBarsItem" xml:space="preserve">
+    <value>Criar Barras</value>
+    <comment>Create Bars</comment>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodCreateRibbonItem" xml:space="preserve">
+    <value>Criar Lista</value>
+    <comment>Create Ribbon</comment>
+  </data>
+  <data name="DashboardWinStringId.FileFilterAll" xml:space="preserve">
+    <value>Todos Arquivos</value>
+    <comment>All Files</comment>
+  </data>
+  <data name="DashboardWinStringId.FileFilterAllImages" xml:space="preserve">
+    <value>Todos Arquivos de Imagens</value>
+    <comment>All Image Files</comment>
+  </data>
+  <data name="DashboardWinStringId.FileFilterDashboards" xml:space="preserve">
+    <value>Arquivos do Painel</value>
+    <comment>Dashboard Files</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartRotate" xml:space="preserve">
+    <value>Diagrama {0} rotacionado em '{1}'</value>
+    <comment>{0} diagram rotation in '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartSeriesType" xml:space="preserve">
+    <value>Modificar tipo de série para '{0}'</value>
+    <comment>Change series type for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartShowLegend" xml:space="preserve">
+    <value>Visibilidade da legenda {0} para '{1}'</value>
+    <comment>{0} legend visibility for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartYAxisSettings" xml:space="preserve">
+    <value>Modificar eixo Y para '{0}'</value>
+    <comment>Change Y axis settings for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemContentArrangement" xml:space="preserve">
+    <value>Modificar disposição dos elementos para '{0}'</value>
+    <comment>Change arrangement settings for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCrossDataSourceFiltering" xml:space="preserve">
+    <value>{0} Filtro entre Fonte de Dados para '{1}'</value>
+    <comment>{0} cross-data-source filtering for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemDateTimeFormat" xml:space="preserve">
+    <value>Alterar formato de data para '{0}'</value>
+    <comment>Set date-time format for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemNumericFormat" xml:space="preserve">
+    <value>Alterar formato numérico para '{0}'</value>
+    <comment>Set numeric format for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDeleteItem" xml:space="preserve">
+    <value>Deletar '{0}'</value>
+    <comment>Delete '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionGroupInterval" xml:space="preserve">
+    <value>Alterar intervalo do grupo para '{0}'</value>
+    <comment>Set group interval for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSorting" xml:space="preserve">
+    <value>Alterar ordenação para '{0}'</value>
+    <comment>Set sorting for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSortOrder" xml:space="preserve">
+    <value>Alterar ordem de classificação para '{0}'</value>
+    <comment>Toggle sort order for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionSpecifyTopN" xml:space="preserve">
+    <value>Alterar Top N para '{0}'</value>
+    <comment>Set Top N for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisabling" xml:space="preserve">
+    <value>Desabilitando</value>
+    <comment>Disabling</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDrillDown" xml:space="preserve">
+    <value>{0} drill-down para '{1}</value>
+    <comment>{0} drill-down for '{1}</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDuplicateItem" xml:space="preserve">
+    <value>Criar uma cópia de '{0}'</value>
+    <comment>Create a copy of '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDataSource" xml:space="preserve">
+    <value>Modificar consulta para '{0}'</value>
+    <comment>Modify query for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditFilter" xml:space="preserve">
+    <value>Editar filtro para '{0}'</value>
+    <comment>Edit filter for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditNames" xml:space="preserve">
+    <value>Editar nomes em '{0}'</value>
+    <comment>Edit names within '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEnabling" xml:space="preserve">
+    <value>Habilitando</value>
+    <comment>Enabling</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeRange" xml:space="preserve">
+    <value>Modificar faixa para '{0}'</value>
+    <comment>Change range for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeViewType" xml:space="preserve">
+    <value>Modificar forma de visualização do Gauge para '{0}'</value>
+    <comment>Change gauge view type for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridBandedRows" xml:space="preserve">
+    <value>{0} linhas aninhadas para '{1}'</value>
+    <comment>{0} banded rows for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridColumnHeaders" xml:space="preserve">
+    <value>{0} visibilidade dos cabeçalhos modificada para '{1}'</value>
+    <comment>{0} column headers visibility for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridColumnOptions" xml:space="preserve">
+    <value>Modicar opções da coluna para '{0}'</value>
+    <comment>Change column options for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridHorizontalLines" xml:space="preserve">
+    <value>{0} visibilidade das linhas horizontais do grid modificada para '{1}'</value>
+    <comment>{0} horizontal grid lines visibility for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridMergeCells" xml:space="preserve">
+    <value>{0} margim das células para '{1}'</value>
+    <comment>{0} cell merging for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridVerticalLines" xml:space="preserve">
+    <value>{0} vibilidade das linhas verticais do grid modificada para '{1}'</value>
+    <comment>{0} vertical grid lines visibility for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemIgnoreMasterFilters" xml:space="preserve">
+    <value>{0} ignorando Filtro Principal para '{1}'</value>
+    <comment>{0} ignoring of Master Filters for '{1}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageAlignment" xml:space="preserve">
+    <value>Alterar alinhamento para '{0}'</value>
+    <comment>Change alignment for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageOpen" xml:space="preserve">
+    <value>Carregar imagem para '{0}'</value>
+    <comment>Load image to '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemImageSizeMode" xml:space="preserve">
+    <value>Modificar tamanho para '{0}'</value>
+    <comment>Change size mode for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemInsertItem" xml:space="preserve">
+    <value>Inserir '{0}'</value>
+    <comment>Insert '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemLayoutChanged" xml:space="preserve">
+    <value>Layout modificado</value>
+    <comment>Layout changed</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMeasureSummaryType" xml:space="preserve">
+    <value>Alterar tipo de resumo para '{0}'</value>
+    <comment>Set summary type for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemModifyBindings" xml:space="preserve">
+    <value>Modificar ligações para '{0}'</value>
+    <comment>Modify bindings for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemNewDataSource" xml:space="preserve">
+    <value>Criar Fonte de Dados '{0}'</value>
+    <comment>Create '{0}' data source</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieLabelContentType" xml:space="preserve">
+    <value>Modificar conteúdo dos rótulos para '{0}'</value>
+    <comment>Change data labels content for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieLegendPosition" xml:space="preserve">
+    <value>Modificar posição da legenda em '{0}'</value>
+    <comment>Change legend position in '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieStyle" xml:space="preserve">
+    <value>Modifcar estilo do gráfico Pizza para '{0}'</value>
+    <comment>Change pie style for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieTooltipContentType" xml:space="preserve">
+    <value>Modificar descrições para '{0}'</value>
+    <comment>Change tooltips content for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRangeFilterSeriesType" xml:space="preserve">
+    <value>Modificar tipo de todas as séries para '{0}'</value>
+    <comment>Change series type for all series in '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemShowCaption" xml:space="preserve">
+    <value>Apresentar/Esconder descrição para '{0}'</value>
+    <comment>Show/Hide caption for '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemTextBoxEditText" xml:space="preserve">
+    <value>Editar texto em '{0}'</value>
+    <comment>Edit text in '{0}'</comment>
+  </data>
+  <data name="DashboardWinStringId.ImageFileCorruptedMessage" xml:space="preserve">
+    <value>Um arquivo de imagem está corrompido.
+URL: {0}</value>
+    <comment>An image file is corrupted.
+URL: {0}</comment>
+  </data>
+  <data name="DashboardWinStringId.ImageGeneralExceptionMessage" xml:space="preserve">
+    <value>Não foi possível abrir o arquivo de imagem pelo seguinte motivo: 
+{0}</value>
+    <comment>Cannot open an image file for the following reason:
+{0}</comment>
+  </data>
+  <data name="DashboardWinStringId.ImageNotFoundMessage" xml:space="preserve">
+    <value>Arquivo de imagem não encontrado. O arquivo pode ter sido renomeado, movido ou removido.
+URL: {0}</value>
+    <comment>Cannot find an image file. This file may have been renamed, moved, or deleted.
+URL: {0}</comment>
+  </data>
+  <data name="DashboardWinStringId.ImageWrongFormatMessage" xml:space="preserve">
+    <value>A imagem selecionada está corrompida.</value>
+    <comment>The selected image file is corrupted.</comment>
+  </data>
+  <data name="DashboardWinStringId.MenuDateTimeFormatFormat" xml:space="preserve">
+    <value>Formatar</value>
+    <comment>Format</comment>
+  </data>
+  <data name="DashboardWinStringId.MenuDimensionSortBy" xml:space="preserve">
+    <value>Ordenar por</value>
+    <comment>Sort by</comment>
+  </data>
+  <data name="DashboardWinStringId.MenuMore" xml:space="preserve">
+    <value>Mais</value>
+    <comment>More</comment>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>Erro</value>
+    <comment>Error</comment>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>Atenção</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="DashboardWinStringId.MessageConfirmUnpinnedItemsRemove" xml:space="preserve">
+    <value>Tem certeza que deseja remover todos os itens não fixados da lista?</value>
+    <comment>Are you sure you want to remove all unpinned items from the list?</comment>
+  </data>
+  <data name="DashboardWinStringId.MessageFileNotFound" xml:space="preserve">
+    <value>Arquivo não encontrado. ({0})</value>
+    <comment>This file could not be found.
+({0})</comment>
+  </data>
+  <data name="DashboardWinStringId.MessageNullDashboard" xml:space="preserve">
+    <value>A propriedade do Painel não pode ser definida como null.</value>
+    <comment>The Dashboard property cannot be set to null.</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeAutoCaption" xml:space="preserve">
+    <value>Automático</value>
+    <comment>Auto</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeCurrencyCaption" xml:space="preserve">
+    <value>Moeda</value>
+    <comment>Currency</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeGeneralCaption" xml:space="preserve">
+    <value>Geral</value>
+    <comment>General</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeNumberCaption" xml:space="preserve">
+    <value>Numérico</value>
+    <comment>Number</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypePercentCaption" xml:space="preserve">
+    <value>Percentual</value>
+    <comment>Percent</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeScientificCaption" xml:space="preserve">
+    <value>Científico</value>
+    <comment>Scientific</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitAutoCaption" xml:space="preserve">
+    <value>Automático</value>
+    <comment>Auto</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitBillionsCaption" xml:space="preserve">
+    <value>Bilhões</value>
+    <comment>Billions</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitMillionsCaption" xml:space="preserve">
+    <value>Milhões</value>
+    <comment>Millions</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitOnesCaption" xml:space="preserve">
+    <value>Unidade</value>
+    <comment>Ones</comment>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitThousandsCaption" xml:space="preserve">
+    <value>Milhares</value>
+    <comment>Thousands</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemClearFilesCommand" xml:space="preserve">
+    <value>&amp;Limpar Painéis não fixados</value>
+    <comment>&amp;Clear unpinned dashboards</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemClearFoldersCommand" xml:space="preserve">
+    <value>&amp;Limpar pastas não fixadas</value>
+    <comment>&amp;Clear unpinned folders</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemOpenCommand" xml:space="preserve">
+    <value>&amp;Abrir</value>
+    <comment>&amp;Open</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemPinCommand" xml:space="preserve">
+    <value>Fixar</value>
+    <comment>Pin</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemRemoveCommand" xml:space="preserve">
+    <value>&amp;Remover da Lista</value>
+    <comment>&amp;Remove from list</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentBarButtonItemUnpinCommand" xml:space="preserve">
+    <value>Desfixar</value>
+    <comment>Unpin</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentDashboardsCaption" xml:space="preserve">
+    <value>Recentes</value>
+    <comment>Recent</comment>
+  </data>
+  <data name="DashboardWinStringId.RecentItemsMenuEmptyText" xml:space="preserve">
+    <value>Para pesquisar por um Painel, clique Abrir.</value>
+    <comment>To browse for a dashboard, click Open.</comment>
+  </data>
+  <data name="DashboardWinStringId.RedoText" xml:space="preserve">
+    <value>Refazer</value>
+    <comment>Redo</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLayoutCaption" xml:space="preserve">
+    <value>Layout</value>
+    <comment>Layout</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartSeriesTypeCaption" xml:space="preserve">
+    <value>Tipos de Série</value>
+    <comment>Series Type</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupContentArrangementCaption" xml:space="preserve">
+    <value>Disposição do Conteúdo</value>
+    <comment>Content Arrangement</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSourceCaption" xml:space="preserve">
+    <value>Fonte de Dados</value>
+    <comment>Data Source</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFileCaption" xml:space="preserve">
+    <value>Arquivo</value>
+    <comment>File</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFilteringCaption" xml:space="preserve">
+    <value>Filtrando</value>
+    <comment>Filtering</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeStyleCaption" xml:space="preserve">
+    <value>Estilo</value>
+    <comment>Style</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridCellsCaption" xml:space="preserve">
+    <value>Células</value>
+    <comment>Cells</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupHistoryCaption" xml:space="preserve">
+    <value>História</value>
+    <comment>History</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageAlignmentCaption" xml:space="preserve">
+    <value>Alinhamento</value>
+    <comment>Alignment</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageOpenCaption" xml:space="preserve">
+    <value>Abrir</value>
+    <comment>Open</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupImageSizeModeCaption" xml:space="preserve">
+    <value>Tamanho</value>
+    <comment>Size Mode</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInsertCaption" xml:space="preserve">
+    <value>Inserir</value>
+    <comment>Insert</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupItemsCaption" xml:space="preserve">
+    <value>Itens</value>
+    <comment>Items</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieLabelsCaption" xml:space="preserve">
+    <value>Rótulos</value>
+    <comment>Labels</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieStyleCaption" xml:space="preserve">
+    <value>Estilo</value>
+    <comment>Style</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupRangeFilterSeriesTypeCaption" xml:space="preserve">
+    <value>Tipos de Série</value>
+    <comment>Series Type</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupSkinsCaption" xml:space="preserve">
+    <value>Aparência</value>
+    <comment>Skins</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTextBoxSettingsCaption" xml:space="preserve">
+    <value>Configurações</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryCardsToolsName" xml:space="preserve">
+    <value>Opões Cartões</value>
+    <comment>Cards Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryChartToolsName" xml:space="preserve">
+    <value>Opões Gráfico</value>
+    <comment>Chart Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGaugesToolsName" xml:space="preserve">
+    <value>Opões Gauge</value>
+    <comment>Gauges Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGridToolsName" xml:space="preserve">
+    <value>Opções Grid</value>
+    <comment>Grid Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryImageToolsName" xml:space="preserve">
+    <value>Opções de Imagem</value>
+    <comment>Image Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryPiesToolsName" xml:space="preserve">
+    <value>Opões Gráfico Pizza</value>
+    <comment>Pies Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryPivotToolsName" xml:space="preserve">
+    <value>Opões Pivot Grid</value>
+    <comment>Pivot Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryRangeFilterToolsName" xml:space="preserve">
+    <value>Ferramentas para filtro de faixa</value>
+    <comment>Range Filter Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryTextBoxToolsName" xml:space="preserve">
+    <value>Ferramentas para Campo de Texto</value>
+    <comment>Text Box Tools</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDashboardCaption" xml:space="preserve">
+    <value>Painel</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageDataCaption" xml:space="preserve">
+    <value>Informações</value>
+    <comment>Data</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageImageOptionsCaption" xml:space="preserve">
+    <value>Opções</value>
+    <comment>Options</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageLayoutAndStyleCaption" xml:space="preserve">
+    <value>Estilo &amp; Layout</value>
+    <comment>Layout &amp; Style</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageRangeFilterStyleCaption" xml:space="preserve">
+    <value>Estilo</value>
+    <comment>Style</comment>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageTextBoxFormatCaption" xml:space="preserve">
+    <value>Formatar</value>
+    <comment>Format</comment>
+  </data>
+  <data name="DashboardWinStringId.TooltipGroupByType" xml:space="preserve">
+    <value>Agrupar Campos por Tipo</value>
+    <comment>Group Fields by Type</comment>
+  </data>
+  <data name="DashboardWinStringId.TooltipSortAscending" xml:space="preserve">
+    <value>Ordenar Campos de A a Z</value>
+    <comment>Sort Fields A to Z</comment>
+  </data>
+  <data name="DashboardWinStringId.TooltipSortDescending" xml:space="preserve">
+    <value>Ordenar Campos de Z a A</value>
+    <comment>Sort Fields Z to A</comment>
+  </data>
+  <data name="DashboardWinStringId.UndoRedoActionsCount" xml:space="preserve">
+    <value>{0} {1} Ações</value>
+    <comment>{0} {1} Actions</comment>
+  </data>
+  <data name="DashboardWinStringId.UndoRedoSingleAction" xml:space="preserve">
+    <value>{0} {1} Ação</value>
+    <comment>{0} {1} Action</comment>
+  </data>
+  <data name="DashboardWinStringId.UndoText" xml:space="preserve">
+    <value>Desfazer</value>
+    <comment>Undo</comment>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteDataSourceCaption" xml:space="preserve">
+    <value>Deletar</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteDataSourceDescription" xml:space="preserve">
+    <value>Remover a origem de dados</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDeleteDataSource" xml:space="preserve">
+    <value>Deletar '{0}' Origem de dados</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSetCurrencyCultureCaption" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="DashboardWinStringId.CurrencyInvariantRegion" xml:space="preserve">
+    <value>Indefinido</value>
+  </data>
+  <data name="DashboardWinStringId.ImageCorruptedMessage" xml:space="preserve">
+    <value>O arquivo de imagem está corrompido.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardCurrencyUseCurrentCurrency" xml:space="preserve">
+    <value>usar configurações do sistema do cliente</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemSetCurrencyCulture" xml:space="preserve">
+    <value>Mudar a cultura de moeda do painel</value>
+  </data>
+  <data name="DashboardWinStringId.ConnectionErrorFormDetailPattern" xml:space="preserve">
+    <value>Conexão nome: {0}
+Mensagem de erro: {1}</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneCaption" xml:space="preserve">
+    <value>Adicionar Painel</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartLegendPositionCaption" xml:space="preserve">
+    <value>Posição da Legenda</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardTitleCaption" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportTo" xml:space="preserve">
+    <value>Exportar Para</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportToPdf" xml:space="preserve">
+    <value>Exportar Para PDF</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotInitialStateCaption" xml:space="preserve">
+    <value>Estado Inicial</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPrintPreview" xml:space="preserve">
+    <value>Visualização de Impressão...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectOtherValues" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLegendPositionCaption" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeLabelsCaption" xml:space="preserve">
+    <value>Rótulos</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPivotLayoutCaption" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="DashboardWinStringId.DataItemCurrencyUseDashboardCurrency" xml:space="preserve">
+    <value>Usar configurações do Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.MessageCollectionTypesNotSupported" xml:space="preserve">
+    <value>Dashboard não oferece suporte a tipos de coleção.</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDashboardCaption" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneDescription" xml:space="preserve">
+    <value>Criar um novo painel dentro deste gráfico.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartLegendPositionDescription" xml:space="preserve">
+    <value>Mudar a posição da legenda dentro do gráfico.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeCaption" xml:space="preserve">
+    <value>Tipo de Série</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeDescription" xml:space="preserve">
+    <value>Alterar o tipo de série do gráfico.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearMasterFilter" xml:space="preserve">
+    <value>Limpar filtro mestre</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillUp" xml:space="preserve">
+    <value>Drill Up</value>
+  </data>
+  <data name="DashboardWinStringId.CommandExportToImage" xml:space="preserve">
+    <value>Exportar Para Imagem</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandColumnCaption" xml:space="preserve">
+    <value>Expanda grupos de colunas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandColumnDescription" xml:space="preserve">
+    <value>Expanda grupos de colunas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandRowCaption" xml:space="preserve">
+    <value>Expanda grupos de linhas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotAutoExpandRowDescription" xml:space="preserve">
+    <value>Expanda grupos de linhas</value>
+  </data>
+  <data name="DashboardWinStringId.ChartInsideHorizontalGalleryGroupCaption" xml:space="preserve">
+    <value>Dentro Horizontal</value>
+  </data>
+  <data name="DashboardWinStringId.ChartInsideVerticalGalleryGroupCaption" xml:space="preserve">
+    <value>Dentro Vertical</value>
+  </data>
+  <data name="DashboardWinStringId.ChartOutsideHorizontalGalleryGroupCaption" xml:space="preserve">
+    <value>Fora Horizontal</value>
+  </data>
+  <data name="DashboardWinStringId.ChartOutsideVerticalGalleryGroupCaption" xml:space="preserve">
+    <value>Fora da Vertical</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardTitleDescription" xml:space="preserve">
+    <value>Digitar ou editar texto e selecione uma imagem para o título do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsDescription" xml:space="preserve">
+    <value>Mostrar legendas de diagramas individuais dentro deste item de painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDashboardTitle" xml:space="preserve">
+    <value>Edite o título do painel</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandColumnDisable" xml:space="preserve">
+    <value>Desativar a expansão automática de grupos de colunas para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandColumnEnable" xml:space="preserve">
+    <value>Permitir expansão automática de grupos de colunas para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandRowDisable" xml:space="preserve">
+    <value>Desativar a expansão automática de grupos de linhas para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPivotAutoExpandRowEnable" xml:space="preserve">
+    <value>Permitir expansão automática de grupos de linhas para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartXAxisSettingsCaption" xml:space="preserve">
+    <value>Configurações Do Eixo-X</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhar a parte inferior do diagrama. Orientar a legenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeShowCaptionsCaption" xml:space="preserve">
+    <value>Mostrar legendas de calibre</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeShowCaptionsDescription" xml:space="preserve">
+    <value>Exibir legendas para medidores individuais dentro deste item de painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsCaption" xml:space="preserve">
+    <value>Mostrar legendas de torta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPivotInitialStateDescription" xml:space="preserve">
+    <value>Especificar como o item de painel de pivô consta o Dashboard Viewer por padrão.</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatDefaultCaption" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatLongCaption" xml:space="preserve">
+    <value>Longo</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatShortCaption" xml:space="preserve">
+    <value>Curto</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartAddPane" xml:space="preserve">
+    <value>Adicionar novo painel para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGaugeShowCaptions" xml:space="preserve">
+    <value>{0} medidor de visibilidade de legendas para ' {1} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieShowCaptions" xml:space="preserve">
+    <value>{0} torta legendas visibilidade ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhe a parte superior do diagrama. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhe a parte superior do gráfico fora do diagrama. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopCenterVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhe a parte superior do diagrama. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartXAxisSettingsDescription" xml:space="preserve">
+    <value>Personalizar várias configurações de eixo x, como o título de visibilidade e eixo.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightVerticalInsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSingleMasterFilterCaption" xml:space="preserve">
+    <value>Filtro Mestre Único</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsArgumentsCaption" xml:space="preserve">
+    <value>Argumentos</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsSeriesCaption" xml:space="preserve">
+    <value>Série</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextRibbonCaption" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserCalculatedFieldExpressionEditorMenuItem" xml:space="preserve">
+    <value>Editar a expressão...</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserCalculatedFieldTypeMenuItem" xml:space="preserve">
+    <value>Tipo de campo</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRemoveCalculatedFieldMenuItem" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="DashboardWinStringId.DataFieldBrowserRenameCalculatedFieldMenuItem" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatTimeOnlyCaption" xml:space="preserve">
+    <value>Somente Hora</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCalculatedFieldName" xml:space="preserve">
+    <value>Renomear '{0}' para '{1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDashboardParameters" xml:space="preserve">
+    <value>Editar os parâmetros do dashboard</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapDelta" xml:space="preserve">
+    <value>Alterar as opções de delta em '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapOpen" xml:space="preserve">
+    <value>Carregar mapa para '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMultipleMasterFilter" xml:space="preserve">
+    <value>{0} Filtro Mestre Múltiplo para '{1}'</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersCaption" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardParametersCaption" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceFilterCaption" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDataSourceFilterDescription" xml:space="preserve">
+    <value>Editar o filtro de fonte de dados atual</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditFilterRibbonCaption" xml:space="preserve">
+    <value>Editar Filtro</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditNamesRibbonCaption" xml:space="preserve">
+    <value>Editar Nomes</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageImportRibbonCaption" xml:space="preserve">
+    <value>Importar Imagem</value>
+  </data>
+  <data name="DashboardWinStringId.CommandImageLoadRibbonCaption" xml:space="preserve">
+    <value>Carregar Imagem</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAfricaCaption" xml:space="preserve">
+    <value>África</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAfricaDescription" xml:space="preserve">
+    <value>Carregar um mapa da África.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAsiaCaption" xml:space="preserve">
+    <value>Ásia</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapCanadaCaption" xml:space="preserve">
+    <value>Canadá</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapCanadaDescription" xml:space="preserve">
+    <value>Carregar um mapa do Canadá.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapDefaultShapefileCaption" xml:space="preserve">
+    <value>Mapa Padrão</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapEuropeCaption" xml:space="preserve">
+    <value>Europa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapEuropeDescription" xml:space="preserve">
+    <value>Carregar um mapa da Europa.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapFullExtentCaption" xml:space="preserve">
+    <value>Toda a extensão</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapFullExtentDescription" xml:space="preserve">
+    <value>Extensão Completa.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapImportCaption" xml:space="preserve">
+    <value>Importar Mapa...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapImportRibbonCaption" xml:space="preserve">
+    <value>Importar Mapa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLegendPositionCaption" xml:space="preserve">
+    <value>Posição da legenda</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLoadRibbonCaption" xml:space="preserve">
+    <value>Carregar Mapa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapNorthAmericaCaption" xml:space="preserve">
+    <value>América do Norte</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapNorthAmericaDescription" xml:space="preserve">
+    <value>Carregar um mapa da América do Norte.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShowLegendCaption" xml:space="preserve">
+    <value>Mostrar Legenda</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapSouthAmericaCaption" xml:space="preserve">
+    <value>América do Sul</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapSouthAmericaDescription" xml:space="preserve">
+    <value>Carregar um mapa da América do Sul.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMultipleMasterFilterCaption" xml:space="preserve">
+    <value>Filtro Mestre Múltiplo</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemRemoveCalculatedField" xml:space="preserve">
+    <value>Remover campo calculado '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemTargetDimensions" xml:space="preserve">
+    <value>Modificar opções de interatividade para '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryHorizontalGroupCaption" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="DashboardWinStringId.MapGalleryVerticalGroupCaption" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDataSource" xml:space="preserve">
+    <value>(nenhum)</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridParametersLookUpDynamicList" xml:space="preserve">
+    <value>Lista dinâmica</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridParametersLookUpStaticList" xml:space="preserve">
+    <value>Lista Estática</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupCommonCaption" xml:space="preserve">
+    <value>Comum</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDataSource" xml:space="preserve">
+    <value>Fonte de Dados</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupDesign" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupElements" xml:space="preserve">
+    <value>Elementos</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupHome" xml:space="preserve">
+    <value>Página principal</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInteractivityCaption" xml:space="preserve">
+    <value>Interatividade</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupInteractivitySettingsCaption" xml:space="preserve">
+    <value>Configurações de Interatividade</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapCaption" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapLegendPositionCaption" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapefileCaption" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeBar" xml:space="preserve">
+    <value>Barra</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeLine" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeWinLoss" xml:space="preserve">
+    <value>Ganho/Perda</value>
+  </data>
+  <data name="DashboardWinStringId.ChartPrimaryAxisTypeName" xml:space="preserve">
+    <value>Eixo primário</value>
+  </data>
+  <data name="DashboardWinStringId.ChartSecondaryAxisTypeName" xml:space="preserve">
+    <value>Eixo secundário</value>
+  </data>
+  <data name="DashboardWinStringId.CommandAddCalculatedFieldCaption" xml:space="preserve">
+    <value>Adicionar campo calculado</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearDataSourceFilterCaption" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="DashboardWinStringId.BarDataSourceName" xml:space="preserve">
+    <value>Fonte de Dados</value>
+  </data>
+  <data name="DashboardWinStringId.BarHomeName" xml:space="preserve">
+    <value>Página principal</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemSingleMasterFilter" xml:space="preserve">
+    <value>{0} Filtro Mestre Simples para '{1}'</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFiltering" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryMapToolsName" xml:space="preserve">
+    <value>Ferramentas de Mapa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUnsupportedCaption" xml:space="preserve">
+    <value>Ação sem suporte</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemCalculatedFieldType" xml:space="preserve">
+    <value>Alterar o tipo de campo para '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartLegendPosition" xml:space="preserve">
+    <value>Posição da legenda mudança para '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartRemovePane" xml:space="preserve">
+    <value>Remova o painel '{0}' de '{1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemFilterDataSource" xml:space="preserve">
+    <value>Fonte de dados do filtro '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapShowLegend" xml:space="preserve">
+    <value>visibilidade de legenda {0} para '{1}'</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapDefaultShapefileDescription" xml:space="preserve">
+    <value>Carregar um mapa padrão.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLegendPositionDescription" xml:space="preserve">
+    <value>Mudar a posição da legenda dentro do mapa.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLoadCaption" xml:space="preserve">
+    <value>Carregar Mapa...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartRemovePaneCaption" xml:space="preserve">
+    <value>Remover Painel</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearDataSourceFilterDescription" xml:space="preserve">
+    <value>Limpar o filtro de fonte de dados atuais</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardDescription" xml:space="preserve">
+    <value>Selecione o painel atual.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGaugeStyleThreeFourthCircularCaption" xml:space="preserve">
+    <value>Circular de três quartos</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapAsiaDescription" xml:space="preserve">
+    <value>Carregar um mapa de Ásia.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapUSACaption" xml:space="preserve">
+    <value>EUA</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapUSADescription" xml:space="preserve">
+    <value>Carregar um mapa dos E.U.A.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapWorldCountriesCaption" xml:space="preserve">
+    <value>Países do mundo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapInitialExtentCaption" xml:space="preserve">
+    <value>Extensão inicial</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapInitialExtentDescription" xml:space="preserve">
+    <value>Extensão Inicial.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShowLegendDescription" xml:space="preserve">
+    <value>Mostrar legenda que ajuda os usuários finais a identificar elementos do mapa.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapWorldCountriesDescription" xml:space="preserve">
+    <value>Carregar um mapa do mundo.</value>
+  </data>
+  <data name="DashboardWinStringId.BarViewName" xml:space="preserve">
+    <value>Visão</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupView" xml:space="preserve">
+    <value>Visualização</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDataItemRename" xml:space="preserve">
+    <value>Renomear...</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDataItemRename" xml:space="preserve">
+    <value>Renomear item de dados para {0}</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemAddCalculatedField" xml:space="preserve">
+    <value>Adiciona um campo calculado '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSetCurrencyCultureDescription" xml:space="preserve">
+    <value>Especificar a moeda que será usada por padrão para exibir todos os valores de moeda no Dashboard.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhe a parte inferior do gráfico fora do diagrama. Orientar a legenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomCenterVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Centralizar horizontalmente a legenda e alinhe a parte inferior do diagrama. Orientar a legenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTargetDimensions" xml:space="preserve">
+    <value>Dimensões do alvo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertDashboardItemTypeCaption" xml:space="preserve">
+    <value>Converter para</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChartCaption" xml:space="preserve">
+    <value>Gráfico</value>
+  </data>
+  <data name="DashboardWinStringId.WeightedLegendGalleryGroupCaption" xml:space="preserve">
+    <value>Posição</value>
+  </data>
+  <data name="DashboardWinStringId.PrintPreviewOptionsFormCaption" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRenameDataSourceCaption" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGridCaption" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNoneTypeCaption" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToCardCaption" xml:space="preserve">
+    <value>Cartões</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGaugeCaption" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToRangeFilterCaption" xml:space="preserve">
+    <value>Filtro de Faixa</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupWeightedLegendPositionCaption" xml:space="preserve">
+    <value>Legenda Ponderada</value>
+  </data>
+  <data name="DashboardWinStringId.MessageBoxConfirmationTitle" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="DashboardWinStringId.MessageUseDataAccessApiFlagDisabled" xml:space="preserve">
+    <value>Para usar a API de acesso a dados, defina a propriedade de UseDataAccessApi do dashboard viewer para true.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChangeWeightedLegendTypeCaption" xml:space="preserve">
+    <value>Mostrar Legenda ponderada</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendLinearTypeCaption" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNoneTypeDescription" xml:space="preserve">
+    <value>Desativar a legenda ponderada.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertDashboardItemTypeDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para outro tipo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBubbleMapCaption" xml:space="preserve">
+    <value>Mapa de bolha</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBubbleMapDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de controle do mapa de bolha.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChartDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item do painel de controle gráfico.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieMapCaption" xml:space="preserve">
+    <value>Mapa de Pizza</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPivotDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para outro tipo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertBubbleMapCaption" xml:space="preserve">
+    <value>Mapa de bolha</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChoroplethMapCaption" xml:space="preserve">
+    <value>Mapa coroplético</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPieMapCaption" xml:space="preserve">
+    <value>Mapa de Pizza</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRemoveDataItemsCaption" xml:space="preserve">
+    <value>Remover itens de dados</value>
+  </data>
+  <data name="DashboardWinStringId.CommandServerModeCaption" xml:space="preserve">
+    <value>Modo de Servidor</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsArgumentsDescription" xml:space="preserve">
+    <value>Argumentos são usados para executar a filtragem de mestre e drill-down</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTransposeItemCaption" xml:space="preserve">
+    <value>Transpor</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceEmptyNameMessage" xml:space="preserve">
+    <value>o nome de fonte de dados não pode ser vazio.</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceNameExistsMessage" xml:space="preserve">
+    <value>Uma fonte de dados com o nome especificado já existe.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNestedTypeCaption" xml:space="preserve">
+    <value>Aninhados</value>
+  </data>
+  <data name="DashboardWinStringId.DragAreaHasNotDashboardItemMessage" xml:space="preserve">
+    <value>Selecione um item do painel de controle para ver itens de dados disponíveis</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda na parte superior esquerdo canto do diagrama. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda na parte superior esquerdo canto do gráfico fora do diagrama. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda na parte superior esquerdo canto do diagrama. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopLeftVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda na parte superior esquerdo canto do gráfico fora do diagrama. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>Alinhe a legenda para o canto superior direito do diagrama. Oriente a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightVerticalInsideLegendPosition" xml:space="preserve">
+    <value>Alinhe a legenda para o canto superior direito do diagrama. Oriente a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartTopRightVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandAddCalculatedFieldDescription" xml:space="preserve">
+    <value>Adiciona novo campo calculado para a atual fonte de dados selecionada</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersDescription" xml:space="preserve">
+    <value>Editar os parâmetros atuais do painel de controle</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomCenterHorizontalLegendPosition" xml:space="preserve">
+    <value>Centralizar a lenda horizontalmente e alinhe a parte inferior do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomCenterVerticalLegendPosition" xml:space="preserve">
+    <value>Centralizar a lenda horizontalmente e alinhe a parte inferior do mapa. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomLeftHorizontalLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda para o canto inferior esquerdo do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomLeftVerticalLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda para o canto inferior esquerdo do mapa. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomRightHorizontalLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda para o canto inferior direito do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapBottomRightVerticalLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda para o canto inferior direito do mapa. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopCenterHorizontalLegendPosition" xml:space="preserve">
+    <value>Centralizar a lenda horizontalmente e alinhá-lo para o topo do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopCenterVerticalLegendPosition" xml:space="preserve">
+    <value>Centralizar a lenda horizontalmente e alinhá-lo para o topo do mapa. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopLeftHorizontalLegendPosition" xml:space="preserve">
+    <value>Alinhar a lenda para a parte superior esquerdo canto do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopLeftVerticalLegendPosition" xml:space="preserve">
+    <value>Alinhar a lenda para a parte superior esquerdo canto do mapa. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MapTopRightHorizontalLegendPosition" xml:space="preserve">
+    <value>Alinhar a legenda para o canto superior direito do mapa. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageInteractivityDashboardItemNotFound" xml:space="preserve">
+    <value>Não pode encontrar um item do painel de controle com o nome fornecido. Por favor, especifique um nome correto.</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChartXAxisSettings" xml:space="preserve">
+    <value>Eixo x de alterar configurações para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerDataReducedMessage" xml:space="preserve">
+    <value>este item do painel de controle está vinculado a um grande conjunto de dados e
+não atualmente exibe todos os dados para manter o desempenho.
+No Visualizador de painel de controle, todos os dados serão exibidos.</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardDesignerEmptyMessage" xml:space="preserve">
+    <value>Para adicionar um item de painel de controle para seu painel de controle, clique no botão correspondente na faixa de opções ou a barra de ferramentas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTargetDimensionsSeriesDescription" xml:space="preserve">
+    <value>Série é usado para executar a filtragem de mestre e drill-down</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardCaption" xml:space="preserve">
+    <value>Selecione Painel de controle</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardParametersDescription" xml:space="preserve">
+    <value>Editar os parâmetros atuais do painel de controle</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftHorizontalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftVerticalInsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomLeftVerticalOutsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda verticalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.ChartBottomRightHorizontalInsideLegendPosition" xml:space="preserve">
+    <value>. Orientar a lenda horizontalmente.</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapNavigationCaption" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="DashboardWinStringId.MessageEmptyDrillDownValue" xml:space="preserve">
+    <value>Um valor vazio ou nulo foi passado para o método PerformDrillDown.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertChoroplethMapDescription" xml:space="preserve">
+    <value>Criar um item de painel de controle do mapa coroplético e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemBubbleMapOptions" xml:space="preserve">
+    <value>Alterar opções de mapa de bolha para '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapAttribute" xml:space="preserve">
+    <value>Vinculação de atributo mudança em ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapCaption" xml:space="preserve">
+    <value>Mapa de pontos geográficos</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieCaption" xml:space="preserve">
+    <value>Pizzas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeID" xml:space="preserve">
+    <value>(ID)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeKey" xml:space="preserve">
+    <value>(Chave)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLockNavigationCaption" xml:space="preserve">
+    <value>Bloquear navegação</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionListUpdateBarsTransaction" xml:space="preserve">
+    <value>Atualizar Barras</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGridDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de grade.</value>
+  </data>
+  <data name="DashboardWinStringId.MenuRemoveColor" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridLayoutCaption" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupTreeViewLayoutCaption" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteGroupCaption" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="DashboardWinStringId.MenuResetColor" xml:space="preserve">
+    <value>Redefinir</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapShapeLabelsAttributeCaption" xml:space="preserve">
+    <value>Rótulos</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatDay" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorSchemeValueAlreadyExistsCaption" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorTableAlreadyExistsCaption" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxCheckedTypeCaption" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxCheckedTypeCaption" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridStyleCaption" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeCaption" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="DashboardWinStringId.PropertyGridNoDashboardItemGroup" xml:space="preserve">
+    <value>(nenhum)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGroupCaption" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGroupsCaption" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatHour" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMinute" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMonth" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatQuarter" xml:space="preserve">
+    <value>Trimestre</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatSecond" xml:space="preserve">
+    <value>Segundo</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatYear" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupFilterElementTypeCaption" xml:space="preserve">
+    <value>Tipo de Item</value>
+  </data>
+  <data name="DashboardWinStringId.MapShapeNoneAttribute" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorSchemeValueAlreadyExists" xml:space="preserve">
+    <value>Esse valor já está presente na Tabela.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardItemGroupCaption" xml:space="preserve">
+    <value>Selecionar Grupo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSelectDashboardItemGroupDescription" xml:space="preserve">
+    <value>Selecione o grupo pai.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnFitToContentCaption" xml:space="preserve">
+    <value>Ajustar ao conteúdo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGroupIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>Ignorar filtros Mestre</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGroupMasterFilterCaption" xml:space="preserve">
+    <value>Filtro Mestre</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUseLocalColorsCaption" xml:space="preserve">
+    <value>Cores locais</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreeViewAutoExpandCaption" xml:space="preserve">
+    <value>Auto Expandir</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertFilterElementsCaption" xml:space="preserve">
+    <value>Elementos de Filtro</value>
+  </data>
+  <data name="DashboardWinStringId.ColorPickerPaletteColorsSectionCaption" xml:space="preserve">
+    <value>Cores da Paleta</value>
+  </data>
+  <data name="DashboardWinStringId.CommandClearSelection" xml:space="preserve">
+    <value>Limpar Seleção</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardColorSchemeCaption" xml:space="preserve">
+    <value>Editar Cores</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditLocalColorSchemeCaption" xml:space="preserve">
+    <value>Editar Cores</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryFilterElementToolsName" xml:space="preserve">
+    <value>Ferramentas de Elementos de Filtro</value>
+  </data>
+  <data name="DashboardWinStringId.CommandRemoveDataItemsDescription" xml:space="preserve">
+    <value>Remover as ligações para o item do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandResetGridColumnsWidthDescription" xml:space="preserve">
+    <value>Redefinir as larguras de coluna.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandServerModeDescription" xml:space="preserve">
+    <value>Ativar o modo de servidor.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxRadioTypeCaption" xml:space="preserve">
+    <value>Rádio</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLockNavigationDescription" xml:space="preserve">
+    <value>Mapa de trava de zoom e rolagem.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieMapDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de controle do mapa de torta.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnFixedWidthCaption" xml:space="preserve">
+    <value>Corrigir a Largura</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeDescription" xml:space="preserve">
+    <value>Ajustar a largura das colunas manualmente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapCaption" xml:space="preserve">
+    <value>Quebra de linha</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertBubbleMapDescription" xml:space="preserve">
+    <value>Criar um item de painel de controle do mapa de bolha e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToRangeFilterDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de filtro gama.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreeViewCaption" xml:space="preserve">
+    <value>Exibição em Árvore</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDefaultTransposeItemDescription" xml:space="preserve">
+    <value>Transpor o item do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeDisplayText" xml:space="preserve">
+    <value>(Texto de exposição)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxStandardTypeCaption" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChoroplethMapDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de controle do Mapa Coroplético.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de mapa de ponto de geo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de torta.</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemChangeWeightedLegendType" xml:space="preserve">
+    <value>Mudança ponderada tipo de legenda para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemServerMode" xml:space="preserve">
+    <value>modo de servidor de {0} para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.LocalColorSchemeEditFormCaption" xml:space="preserve">
+    <value>Esquema de cor Local</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapLockNavigation" xml:space="preserve">
+    <value>Mapa de navegação de bloqueio para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapUnLockNavigation" xml:space="preserve">
+    <value>Desbloqueio mapa de navegação para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemPieMapIsWeighted" xml:space="preserve">
+    <value>' {0}' ponderada tortas para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisableWeightedLegend" xml:space="preserve">
+    <value>Desativar a lenda ponderada para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGeoPointMapCusterization" xml:space="preserve">
+    <value>{0} clustering para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateDateTimeFormatPattern" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="DashboardWinStringId.GlobalColorSchemeEditFormCaption" xml:space="preserve">
+    <value>Esquema de Cores Global</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTransposeChartDescription" xml:space="preserve">
+    <value>Transpor gráfico argumentos e série.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTransposePieDescription" xml:space="preserve">
+    <value>Transpor torta argumentos e série.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUseGlobalColorsCaption" xml:space="preserve">
+    <value>Cores globais</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendLinearTypeDescription" xml:space="preserve">
+    <value>Mostrar Legenda linear ponderada ajuda os usuários finais a identificar elementos do mapa.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandWeightedLegendNestedTypeDescription" xml:space="preserve">
+    <value>Mostrar a lenda ponderada aninhada que ajuda os usuários finais a identificar elementos do mapa.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageExternalDashboardItem" xml:space="preserve">
+    <value>o painel de controle não contém o item de painel de {0}.</value>
+  </data>
+  <data name="DashboardWinStringId.MenuColorBy" xml:space="preserve">
+    <value>Cor Por</value>
+  </data>
+  <data name="DashboardWinStringId.MessageColorTableAlreadyExists" xml:space="preserve">
+    <value>Uma tabela de cores semelhante já existe no Esquema.</value>
+  </data>
+  <data name="DashboardWinStringId.MessageNewColorTableDialogSwitchingDataSourceCaption" xml:space="preserve">
+    <value>Alterar fonte de dados</value>
+  </data>
+  <data name="DashboardWinStringId.MessageServerFailedCalculatedFields" xml:space="preserve">
+    <value>o seguinte calculado campos não podem ser avaliados no modo de servidor:</value>
+  </data>
+  <data name="DashboardWinStringId.ColorSchemeGridEmptyText" xml:space="preserve">
+    <value>Adicionar uma fonte de dados para o painel de controle para criar esquemas de cores</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxCheckedTypeDescription" xml:space="preserve">
+    <value>Definir o tipo de uma caixa de combinação para 'Checked'.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandComboBoxStandardTypeDescription" xml:space="preserve">
+    <value>Definir o tipo de uma caixa de combinação ao 'Padrão'.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChoroplethMapShapeLabelsAttributeCaption" xml:space="preserve">
+    <value>Rótulos de forma</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChoroplethMapShapeLabelsAttributeDescription" xml:space="preserve">
+    <value>Selecione os atributos necessários mapa para exibir seus valores dentro de rótulos de forma correspondente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieMapIsWeightedDescription" xml:space="preserve">
+    <value>Habilitar ponderadas tortas.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapsCaption" xml:space="preserve">
+    <value>Ponto de geo mapas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapsDescription" xml:space="preserve">
+    <value>Criar um item de painel de mapa de ponto de geo e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGroupDescription" xml:space="preserve">
+    <value>Criar um grupo que organiza painel de itens e permite que você gerenciar a interação entre os itens do painel de controle dentro e fora do grupo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertListBoxCaption" xml:space="preserve">
+    <value>Caixa de listagem</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertListBoxDescription" xml:space="preserve">
+    <value>Criar um elemento de filtro de caixa de lista e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertComboboxCaption" xml:space="preserve">
+    <value>Caixa de combinação</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertComboboxDescription" xml:space="preserve">
+    <value>Criar um elemento de filtro de caixa de combinação e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertFilterElementsDescription" xml:space="preserve">
+    <value>Inserir um filtro elemento no painel de instrumentos.
+
+Elementos de filtro permitem aplicar a filtragem para outros itens do painel.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShapeTitleAttributeCaption" xml:space="preserve">
+    <value>Título de forma</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapShapeTitleAttributeDescription" xml:space="preserve">
+    <value>Selecione o atributo necessário mapa para exibir seus valores dentro de títulos de forma correspondente.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandResetGridColumnsWidthCaption" xml:space="preserve">
+    <value>Redefinir as larguras de coluna</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreeViewAutoExpandDescription" xml:space="preserve">
+    <value>Especificar o estado expandido inicial do modo de exibição de árvore.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertPieMapDescription" xml:space="preserve">
+    <value>Criar um item de painel de controle do mapa de torta e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTreeViewCaption" xml:space="preserve">
+    <value>Exibição em árvore</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertTreeViewDescription" xml:space="preserve">
+    <value>Criar um elemento de filtro do modo de exibição de árvore e inseri-lo no painel de instrumentos.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxCheckedTypeDescription" xml:space="preserve">
+    <value>Definir o tipo de uma caixa de listagem para 'Checked'.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandListBoxRadioTypeDescription" xml:space="preserve">
+    <value>Definir o tipo de uma caixa de listagem para 'Rádio'.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToContentsColumnWidthModeCaption" xml:space="preserve">
+    <value>AutoAjuste para conteúdo</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToContentsColumnWidthModeDescription" xml:space="preserve">
+    <value>Ajustar a largura das colunas automaticamente para exibir seu conteúdo inteiramente. Se a rede não pode exibir todo o conteúdo, a rolagem horizontal está habilitado.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToGridColumnWidthModeCaption" xml:space="preserve">
+    <value>AutoAjuste para grade</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToGridColumnWidthModeDescription" xml:space="preserve">
+    <value>Ajustar a largura das colunas automaticamente para exibir seu conteúdo de forma ideal, dependendo da largura da grelha.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnFitToContentDescription" xml:space="preserve">
+    <value>Apto para conteúdo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnFixedWidthDescription" xml:space="preserve">
+    <value>Corrigi a largura.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapDescription" xml:space="preserve">
+    <value>Habilitar quebra automática de linha que permite a exibição de conteúdo de célula em várias linhas.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGroupIgnoreMasterFiltersDescription" xml:space="preserve">
+    <value>Fazer painel itens contidos dentro do grupo de item atual painel afetado por itens de filtro externo mestre.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGroupMasterFilterDescription" xml:space="preserve">
+    <value>Ativar o recurso filtrar itens do painel externo usando filtro mestre itens contidos dentro do atual grupo de item de painel.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditDashboardColorSchemeDescription" xml:space="preserve">
+    <value>Editar o esquema de cores do painel por exibir valores de ligação para cores específicas.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandEditLocalColorSchemeDescription" xml:space="preserve">
+    <value>Especificar as cores usadas para elementos de cor de um item do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToComboBoxCaption" xml:space="preserve">
+    <value>Caixa de combinação</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToComboBoxDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de caixa de combinação.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGaugeDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de calibre.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapBaseCaption" xml:space="preserve">
+    <value>Ponto de geo mapa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapBaseDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de mapa de ponto de geo.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToGeoPointMapCaption" xml:space="preserve">
+    <value>Ponto de geo mapa</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToListBoxCaption" xml:space="preserve">
+    <value>Caixa de listagem</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToListBoxDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de caixa de lista.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToTreeViewDescription" xml:space="preserve">
+    <value>Converter o item do painel de controle selecionado para um item de painel de exibição de árvore.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDeleteGroupDescription" xml:space="preserve">
+    <value>Excluir o grupo de itens do painel de controle selecionado.</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDimensionColoringMode" xml:space="preserve">
+    <value>Mudança de coloração modo para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisableGridColumnFitToContent" xml:space="preserve">
+    <value>Desabilitar ajuste ao conteúdo da coluna ' {0}' para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemDisableGridColumnFixedWidth" xml:space="preserve">
+    <value>Desativar largura fixa da coluna ' {0}' para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditDashboardColorScheme" xml:space="preserve">
+    <value>Modificar um esquema de cores do painel de controle</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEditLocalColorScheme" xml:space="preserve">
+    <value>Modificar um esquema de cor local para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEnableGridColumnFitToContent" xml:space="preserve">
+    <value>Ajuste a largura da coluna ' {0}' para caber seu conteúdo para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemEnableGridColumnFixedWidth" xml:space="preserve">
+    <value>Corrigir a largura da coluna ' {0}' para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridAutoFitToContentsColumnWidthMode" xml:space="preserve">
+    <value>Ativar o modo de largura de coluna 'AutoAjuste para conteúdo' para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridAutoFitToGridColumnWidthMode" xml:space="preserve">
+    <value>Ativar o modo de largura de coluna 'AutoAjuste à grade' para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridManualColumnWidthMode" xml:space="preserve">
+    <value>Ativar o modo de largura de coluna 'Manual' para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridResizeColumns" xml:space="preserve">
+    <value>Alterar o ' {0} ' e ' {1}' as larguras de coluna para ' {2}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGridWordWrap" xml:space="preserve">
+    <value>{0} palavra envoltura para ' {1} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGroupIgnoreMasterFilters" xml:space="preserve">
+    <value>{0} ignorando os filtros externos mestre para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemGroupMasterFilter" xml:space="preserve">
+    <value>{0} mestre filtro para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemInsertGroup" xml:space="preserve">
+    <value>Inserir ' {0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemListBoxChangeType" xml:space="preserve">
+    <value>Alterar o tipo de uma caixa de listagem em ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemComboBoxChangeType" xml:space="preserve">
+    <value>Alterar o tipo de uma caixa de combinação em ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUseGlobalColorsDescription" xml:space="preserve">
+    <value>Usar um esquema global para elementos de cor de um item do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUseLocalColorsDescription" xml:space="preserve">
+    <value>Usar um esquema local para elementos de cor de um item do painel de controle.</value>
+  </data>
+  <data name="DashboardWinStringId.DesignerActionMethodUpdateRibbonItem" xml:space="preserve">
+    <value>Atualizar a fita</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemTreeViewAutoExpandChanged" xml:space="preserve">
+    <value>{0} expansão automática de nós para ' {1}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemUseGlobalColorsDisable" xml:space="preserve">
+    <value>uso um esquema local para elementos de cor '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemUseGlobalColorsEnable" xml:space="preserve">
+    <value>uso um esquema global para elementos de cor '{0}'</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMapShapeTitleAttribute" xml:space="preserve">
+    <value>Alterar atributos fornecendo rótulos de forma para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.HistoryItemMeasureColoringMode" xml:space="preserve">
+    <value>Alterar medida colorir modo para ' {0} '</value>
+  </data>
+  <data name="DashboardWinStringId.MessageNewColorTableDialogSwitchingDataSource" xml:space="preserve">
+    <value>Se você prosseguir e alterar fonte de dados, a lista de dimensão abaixo serão apagadas. Você deseja continuar?</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupColoringCaption" xml:space="preserve">
+    <value>Colorir</value>
+  </data>
+  <data name="DashboardWinStringId.MenuRetainColor" xml:space="preserve">
+    <value>Reter essa cor</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridColumnWidthModeCaption" xml:space="preserve">
+    <value>Modo de largura de coluna</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGeoPointMapToolsName" xml:space="preserve">
+    <value>Geo ponto mapear ferramentas</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageCategoryGroupToolsName" xml:space="preserve">
+    <value>Grupo ferramentas</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnWidthCaption" xml:space="preserve">
+    <value>Largura da coluna...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnWidthDescription" xml:space="preserve">
+    <value>Largura da coluna...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillDownDescription" xml:space="preserve">
+    <value>Enable broca para baixo.
+Clique em um elemento dentro do item de painel de controle para exibir dados detalhados relacionados a esse elemento.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMultipleMasterFilterDescription" xml:space="preserve">
+    <value>Habilite filtro de mestre múltiplo.
+Quando você selecionar vários elementos dentro de um item do painel de controle, outros itens do painel mostram apenas os dados correspondentes aos elementos que você selecionou.</value>
+  </data>
+  <data name="DashboardWinStringId.CommandSingleMasterFilterDescription" xml:space="preserve">
+    <value>Ativar filtro de mestre único.
+Quando você seleciona um elemento dentro do item de painel de controle, outro painel itens mostrar somente dados correspondentes ao elemento selecionado.</value>
+  </data>
+</root>
